@@ -14,6 +14,7 @@ The feature scope, first Watson location, quest outline, and machine-readable co
 - [First Watson location: The Quiet Track](docs/first-location.md)
 - [First side activity outline](docs/quest-01-the-quiet-track.md)
 - [Implementation roadmap](docs/implementation-roadmap.md)
+- [Version and release plan](docs/version-release-plan.md)
 - [Nette's cross-mod cyberware integration plan](docs/cross-mod-cyberware.md)
 - [Virtual Atelier integration plan](docs/virtual-atelier-integration.md)
 - [Mod-added NPC appearance plan](docs/npc-appearance-plan.md)
