@@ -53,6 +53,12 @@ Her clinic should include a cross-mod cyberware catalog. It should discover cybe
 
 Nette's hair and nail appearance each change to a randomly selected style every **six in-game days**. Save the current styles and next change day so loading a save does not reroll them early. Track her rescue, clinic unlock, cyberware catalog, and appearance cycle separately from the other hostage rewards. This is future-version content and does not alter the initial hostage event odds.
 
+## Future version: Virtual Atelier gear and cosmetics
+
+Add a **Night City: Hidden Depths** Virtual Atelier store in a later version. Clothing, armor, and weapons found in the buildings become available for purchase there after V discovers them; undiscovered rewards stay hidden until found.
+
+Create original makeup and tattoo options as cosmetic assets and unlocks. Integrate them with Virtual Atelier where the supported versions allow cosmetic entries; if an appearance option cannot be sold as a normal item, link the store to a compatible appearance menu. Virtual Atelier provides shop listings for items but does not create or apply the underlying gear or cosmetic assets. See the [Virtual Atelier integration plan](docs/virtual-atelier-integration.md).
+
 ## Enemies and mutations
 
 - Include ordinary gang encounters plus selected bio-experiment encounters.
@@ -100,7 +106,8 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 9. Add the rescued shop owner in a later version after the core location and shop area are ready.
 10. Add Josiah's rescue, persistent apartment fixer contact, and replayable city jobs in a later story update.
 11. Add Nette's rescue, clinic, cross-mod cyberware catalog, and six-day hair/nail appearance cycle in a later update.
-12. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
+12. Add the Virtual Atelier store, discovered-item unlocks, and supported makeup/tattoo integrations in a later release.
+13. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
 
 ## Compatibility and testing notes
 
