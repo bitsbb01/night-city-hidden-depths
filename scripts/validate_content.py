@@ -26,13 +26,17 @@ def validate_location(data: dict[str, Any], source: str = "<memory>") -> list[st
 
     if data["creator"] != "Bitsbb01":
         errors.append(f"{where}creator must remain 'Bitsbb01'")
+    target = data["target_playtime_minutes"]
+    if not isinstance(target, (int, float)) or target < 20:
+        errors.append(f"{where}target playtime must be at least 20 minutes")
 
     layout = data["layout"]
     zones = layout.get("zones", [])
     zone_ids = [zone.get("id") for zone in zones]
     if len(zone_ids) != len(set(zone_ids)):
         errors.append(f"{where}zone ids must be unique")
-    if sum(zone.get("minutes", 0) for zone in zones) < data["target_playtime_minutes"]:
+    estimated = sum(zone.get("minutes", 0) for zone in zones)
+    if estimated < target:
         errors.append(f"{where}zone pacing estimates are shorter than target playtime")
 
     entrances = layout.get("entrances", [])
