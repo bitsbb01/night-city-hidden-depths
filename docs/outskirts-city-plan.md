@@ -59,7 +59,7 @@ Prepare approved PDFs during mod packaging by converting pages into optimized te
 
 ## Arcade venues
 
-Once V rescues the separate adult arcade-owner hostage, the owner can open several arcades across Night City. Add one or more venues in the outskirts as those districts become available. Keep these commercial locations and unlock state distinct from Josiah's friendly kid-gang hideout. Reuse Trauma Drama and Roach Race through native cabinet interactions only when supported and tested. New maze-chase, falling-block, and retro shooter games should use original names and presentation or separately verified redistributable game content; record code and asset licensing and attribution. See the [arcade network plan](arcade-network-plan.md).
+Once V rescues the separate adult arcade-owner hostage, the owner can open several arcades across Night City. Add one or more venues in the outskirts as those districts become available. Keep these commercial locations and unlock state distinct from Josiah's friendly kid-gang hideout. Reuse Trauma Drama and Roach Race through native cabinet interactions only when supported and tested. The arcade network's catalog should grow to at least ten original, free-to-play games, including maze-chase, falling-block, flying games, and other distinct arcade genres. Use original names and presentation; record licensing and attribution for any optional third-party content. See the [arcade network plan](arcade-network-plan.md).
 
 ## Random hostile building activities
 
