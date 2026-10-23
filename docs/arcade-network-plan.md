@@ -22,13 +22,13 @@ Prototype the interaction first. If the supported game patch exposes no reliable
 
 ### New classics-inspired games
 
-Add small original minigames that work inside a cabinet interaction, with their own names, code, graphics, sounds, and high-score tracking. Candidate arcade genres:
+Build the cabinet games ourselves as original, free-to-play minigames for this mod. They will have original names, code, graphics, sounds, and scoring, so the core arcade catalog will not depend on obtaining third-party games or licenses. Candidate games:
 
 - **Maze chase** — a Pac-Man-like maze game with original character designs, maze layouts, sounds, and name.
 - **Falling blocks** — a Tetris-like block-stacking puzzle with original shapes, UI, scoring, and name. Do not use the Tetris name, logo, or protected visual/audio presentation.
 - **Retro first-person maze shooter** — a small Doom-like game using original code or a compatible licensed engine and content. Freedoom's game content is available under a three-clause BSD license, but it is game data, not a drop-in Cyberpunk UI minigame; verify the complete dependency and asset licenses and technical compatibility before bundling any portion.
 
-A simple custom UI game is the preferred first prototype. Do not launch arbitrary external executables from the game. An embedded engine, renderer, or imported project must be reviewed for game compatibility, platform support, dependencies, package size, performance, and full license compliance.
+A simple custom UI game is the preferred first prototype. Do not launch arbitrary external executables from the game. Third-party free/open games may be optional additions only after checking the code and asset licenses. An embedded engine or renderer must be reviewed for game compatibility, platform support, dependencies, package size, and performance.
 
 ## Rights and packaging rules
 
