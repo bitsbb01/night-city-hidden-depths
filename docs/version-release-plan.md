@@ -43,6 +43,10 @@ Add Josiah's rescue, fixer jobs, friendly arcade gang and hideout, and at least 
 
 Add Nette's rescue, clinic, cyberware catalog, and six-day hair/nail cycle. Establish the NPC equipment/loadout framework and companion foundation needed by the outskirts story. Validate optional cross-mod integrations and keep unsupported mods from breaking the base package.
 
+### Version 1.6 — Arcade owner and arcade network
+
+Add the separate adult arcade-owner hostage rescue and unlock several playable venues across Night City. Reuse the base game's Trauma Drama and Roach Race at mod-added cabinets only if their native activation can be invoked reliably. Prototype original maze-chase, falling-block, and retro first-person shooter cabinet games with original names and assets; audit code, engine, and media licenses before bundling anything. Keep this network separate from Josiah's friendly kid-gang hideout. Add outlets in the outskirts after the region is playable. Test controller/keyboard input, exiting cabinets, score and reward persistence, and performance.
+
 ### Version 2.0 — Outskirts city: first playable district
 
 Make the city discoverable only after Nette's lead and the quest-cleared truck blockage in the road tunnel. Add a tested tunnel route and first district, local cast and main activity, the central police station in its locked/inactive state, and an authored hostile building rescue for the captain. Unlock the station only after the captain rescue. Package the city as a significant expansion while retaining Night City content compatibility.
