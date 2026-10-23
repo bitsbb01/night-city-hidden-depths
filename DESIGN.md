@@ -45,6 +45,14 @@ A later story update may add a hostage rescue for a child named Josiah. After V 
 
 Choose jobs from authored mission templates and locations, with randomized targets, objectives, and rewards. Save the active job state so it does not reroll on reload, and track Josiah's rescue and fixer unlock separately from the other hostage rewards. This is a future-version feature and does not alter the initial hostage event odds.
 
+## Future version: Nette, rescued ripperdoc
+
+A later update may add a hostage rescue for Nette, a new ripperdoc. After V rescues her, she opens her own clinic in a new area and can install the body's cybernetics and upgrades introduced by this mod.
+
+The clinic's vendor should discover cybernetics added by installed mods and offer compatible items for purchase and installation whenever their item definitions expose the information needed by the supported modding frameworks. Keep a compatibility check and report unsupported item definitions clearly rather than silently listing unusable gear.
+
+Nette's hair and nail appearance each change to a randomly selected style every **six in-game days**. Save the current styles and next change day so loading a save does not reroll them early. Track her rescue, clinic unlock, installed-mod catalog, and appearance cycle separately from the other hostage rewards. This is future-version content and does not alter the initial hostage event odds.
+
 ## Enemies and mutations
 
 - Include ordinary gang encounters plus selected bio-experiment encounters.
@@ -91,7 +99,8 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 8. Add more building variants, the rare hostage roll, and mutated enemy encounters.
 9. Add the rescued shop owner in a later version after the core location and shop area are ready.
 10. Add Josiah's rescue, persistent apartment fixer contact, and replayable city jobs in a later story update.
-11. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
+11. Add Nette's rescue, clinic, installed-mod cyberware catalog, and six-day hair/nail appearance cycle in a later update.
+12. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
 
 ## Compatibility and testing notes
 
