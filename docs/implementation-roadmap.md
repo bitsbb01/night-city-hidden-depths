@@ -40,7 +40,13 @@ Badge Roulette needs its own per-save awarded flag and careful target filtering.
 
 Add a hidden vehicle entrance as a location variant, then implement claimable vehicle rewards using supported vehicle assets. The painter rescue should persist and unlock his garage service in the normal world. Build and test paint presets, mixed colors, color shifting, and the ownership/app interface as a separate feature milestone.
 
-### 5. Release candidate
+### 5. Future version: hostage shop owner
+
+After the core locations and shop area are established, add a separate hostage event for a shop owner. Rescuing them unlocks a persistent shop in one of the new shop areas. Store the rescue and shop-unlocked flags in the save, keep this person separate from the vehicle painter, and stock the store with appropriate mod rewards as the item pool grows.
+
+This feature is planned for a later version; it is not part of the first playable release.
+
+### 6. Release candidate
 
 For each candidate build:
 
