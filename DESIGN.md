@@ -59,6 +59,10 @@ Add a separate adult arcade owner to the future hostage pool. After V rescues th
 
 Use the base game's own cabinet activations for **Trauma Drama** and **Roach Race** at the new venues if supported hooks allow it; do not copy or redistribute base-game logic or assets. Create at least ten arcade games ourselves as original, free-to-play minigames for the mod, with original names, code, graphics, and sound. Include falling-block, maze-chase, flying/flight games, a retro first-person maze-shooter, racing, grid serpent, paddle-and-brick, rhythm, drone salvage, and timed route puzzles, using only the general genres as inspiration. Avoid the Pac-Man/Tetris/Doom brands, characters, art, music, and other protected expression. Third-party open-source or public-domain games can be optional additions only after verifying code, engine, and asset licenses and meeting attribution/source obligations. Prefer an in-game UI prototype and do not launch external executables. See the [arcade owner and network plan](docs/arcade-network-plan.md).
 
+## Future version: hidden arcade quest and portable cartridges
+
+Add one distinctive arcade cabinet outside a venue. When V attempts to play it, a strange service message points to a hidden quest inside one of the new hostile buildings. The optional quest leads to a lost arcade prototype or cartridge cache. Completing it unlocks the arcade manager's shop stock of portable game cartridges. V can buy cartridges for the original arcade games and play purchased games through a portable in-game arcade interface away from cabinets. Track quest completion and cartridge ownership in the save. Disable portable play during combat, driving, dialogue, or other unsafe states, and provide a reliable exit from the UI. Any title that cannot be supported portably should remain cabinet-only. See the [arcade owner and network plan](docs/arcade-network-plan.md).
+
 ## Future version: Nette, rescued ripperdoc
 
 A later update may add a hostage rescue for Nette, a new ripperdoc. After V rescues her, she opens her own clinic in a new area and can install the body's cybernetics and upgrades introduced by this mod.
