@@ -96,6 +96,12 @@ Optionally integrate eye colors from the installed Beautiful Exotics Eyes Pack â
 
 Test NPC appearances with and without the optional pack, verify unsupported or missing appearance IDs fall back cleanly, and check the supported body types.
 
+## Post-launch feature queue: outskirts city
+
+Build a separate explorable outskirts city reached by driving through an existing road tunnel. Start with a small native world-edit slice and verify the tunnel connection, streaming boundary, return route, save behavior, vehicle state, traffic, navigation, and performance before expanding streets and interiors. Add the detailed [outskirts city plan](outskirts-city-plan.md).
+
+This is a major post-launch world project, not part of the first playable release.
+
 ## Current repository state
 
 The repository currently contains the design documents, a location data definition, a Python validator with tests, and ZIP packaging automation. It does not yet contain game assets, scripts, or an installable build. The release workflow intentionally refuses to create a release ZIP until actual installable files exist under `game-root/`.
