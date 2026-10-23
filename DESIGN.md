@@ -45,6 +45,14 @@ A later story update may add a hostage rescue for a child named Josiah. After V 
 
 Choose jobs from authored mission templates and locations, with randomized targets, objectives, and rewards. Save the active job state so it does not reroll on reload, and track Josiah's rescue and fixer unlock separately from the other hostage rewards. This is a future-version feature and does not alter the initial hostage event odds.
 
+## Future version: gangs and Josiah's arcade network
+
+Add two hostile adult factions to selected random encounter pools: a stealth-focused gang that favors silent weapons, ambushes, and flanking, and a separate gang whose members are all women. Give each its own appearance, dialogue, equipment, and authored encounter variations.
+
+Josiah's future storyline also reveals a friendly kid gang that specializes in hiding, scavenging, and theft. The player learns about them only after finding and rescuing Josiah. Some children around the city belong to this group, but their affiliation stays unmarked until the reveal. They can help V with information, distractions, hidden routes, and recovering small stolen items.
+
+Their hideout is a separate old building filled with arcade machines. This is social and exploration content: the kid gang is never hostile, never appears in the new building areas' combat encounters, and is excluded from enemy targeting and faction-changing effects. Persist Josiah's reveal and hideout access in the save. See the [future gangs and arcade hideout plan](docs/future-gangs.md).
+
 ## Future version: Nette, rescued ripperdoc
 
 A later update may add a hostage rescue for Nette, a new ripperdoc. After V rescues her, she opens her own clinic in a new area and can install the body's cybernetics and upgrades introduced by this mod.
@@ -111,10 +119,11 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 8. Add more building variants, the rare hostage roll, and mutated enemy encounters.
 9. Add the rescued shop owner in a later version after the core location and shop area are ready.
 10. Add Josiah's rescue, persistent apartment fixer contact, and replayable city jobs in a later story update.
-11. Add Nette's rescue, clinic, cross-mod cyberware catalog, and six-day hair/nail appearance cycle in a later update.
-12. Add the Virtual Atelier store, discovered-item unlocks, and supported makeup/tattoo integrations in a later release.
-13. Add original appearances and optional eye-pack compatibility for Hidden Depths NPCs.
-14. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
+11. Add Josiah's gang reveal, friendly arcade hideout, and separate stealth and all-female hostile factions.
+12. Add Nette's rescue, clinic, cross-mod cyberware catalog, and six-day hair/nail appearance cycle in a later update.
+13. Add the Virtual Atelier store, discovered-item unlocks, and supported makeup/tattoo integrations in a later release.
+14. Add original appearances and optional eye-pack compatibility for Hidden Depths NPCs.
+15. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
 
 ## Compatibility and testing notes
 
