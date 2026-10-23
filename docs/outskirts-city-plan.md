@@ -57,6 +57,10 @@ The starter shelf should include the user's original **Last Instinct — Issue 1
 
 Prepare approved PDFs during mod packaging by converting pages into optimized textures and generating a manifest and cover thumbnails. Use the custom UI to page through them; test the widget and resource loading in-game. Do not assume the game can render PDFs directly. Only bundle files with clear rights to redistribute and convert.
 
+## Arcade venues
+
+Once V rescues the separate adult arcade-owner hostage, the owner can open several arcades across Night City. Add one or more venues in the outskirts as those districts become available. Keep these commercial locations and unlock state distinct from Josiah's friendly kid-gang hideout. Reuse Trauma Drama and Roach Race through native cabinet interactions only when supported and tested. New maze-chase, falling-block, and retro shooter games should use original names and presentation or separately verified redistributable game content; record code and asset licensing and attribution. See the [arcade network plan](arcade-network-plan.md).
+
 ## Random hostile building activities
 
 The outskirts has its own pool of hostile building activities. As V explores and receives local leads, select from authored, hand-built locations and encounter variants across the region. Vary the building, gang, patrol layout, boss, loot, optional objectives, and hostage outcome while keeping mission-critical interiors and characters authored and reliable. Random selection chooses from prepared content; it does not procedurally invent arbitrary building geometry.
