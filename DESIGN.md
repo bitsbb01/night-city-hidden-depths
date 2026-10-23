@@ -73,6 +73,10 @@ Give NPCs created by this mod—rescuable characters, fixers, shop owners, rippe
 
 Create original exotic eye variants for Hidden Depths characters. Optionally support the installed [Beautiful Exotics Eyes Pack — CCXL Version](https://www.nexusmods.com/cyberpunk2077/mods/25718) when its appearance IDs can be applied safely to our NPCs. Keep this pack optional, do not bundle or copy its assets without the author's permission, and provide original eye looks when it is absent. See the [NPC appearance plan](docs/npc-appearance-plan.md).
 
+## Future version: outskirts city via road tunnel
+
+Add a new, explorable city on the outskirts of Night City, reached by driving through one of the road tunnels. It should feel like a separate city connected by a drivable road route, with its own streets, points of interest, shops, interiors, and side activities. Build it as a large post-launch world expansion, starting with a small tested map slice. See the [outskirts city plan](docs/outskirts-city-plan.md).
+
 ## Enemies and mutations
 
 - Include ordinary gang encounters plus selected bio-experiment encounters.
@@ -123,7 +127,8 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 12. Add Nette's rescue, clinic, cross-mod cyberware catalog, and six-day hair/nail appearance cycle in a later update.
 13. Add the Virtual Atelier store, discovered-item unlocks, and supported makeup/tattoo integrations in a later release.
 14. Add original appearances and optional eye-pack compatibility for Hidden Depths NPCs.
-15. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
+15. Build the outskirts city through a road tunnel as a later world expansion.
+16. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
 
 ## Compatibility and testing notes
 
