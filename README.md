@@ -1,5 +1,7 @@
 # Night City: Hidden Depths
 
+**Created by Bitsbb01**
+
 A Cyberpunk 2077 mod project for exploring newly accessible locations, underground complexes, rescue missions, rare loot, and claimable vehicles.
 
 ## Project status
