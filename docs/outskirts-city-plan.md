@@ -47,6 +47,18 @@ Some locations may connect to tunnels, rail lines, large basements, garages, or 
 
 The captured police captain is a rare authored rescue target in one of these new building areas, with a clear quest path and persistent state. Do not make the captain's rescue a transient random roll that could prevent the police station from ever becoming usable.
 
+## Captain's lead: the scrapyard and Scrapper network
+
+After V rescues the police captain and unlocks the central station, the captain tells V about an injured old man stranded in a junkyard on the outskirts of the new city. The old man is known for finding useful equipment and vehicle parts.
+
+Make the scrapyard a hostile rescue mission with multiple aggressive dogs roaming the yard. V must fight through the dogs and reach the hut in the middle, where the injured man cannot safely escape. He explains that three large automatic turrets mounted high on poles are offline and need power. A gang leader controlling the dogs is positioned below one of the turret poles and carries the power unit. V must defeat the leader, recover the unit, and restore power to all three turrets.
+
+Once powered, the turrets take out the remaining hostile dogs and other hostile intruders that enter the scrapyard. Their targeting must exclude V, rescued people, civilians, and recruited allies. The encounter should have clear turret arcs, safe routes, readable activation feedback, and fail-safe behavior if a turret cannot find a valid target.
+
+Rescuing the old man unlocks him as the first Scrapper vendor. He contacts his Scrapper friends, making additional non-hostile Scrapper NPCs appear at authored outskirts locations. Their inventories draw random selections from Hidden Depths guns and vehicle parts. Persist each vendor's current stock and refresh timing so saving and reloading does not reroll purchases or duplicate items.
+
+Scrapper vehicle parts are upgrade modules for cars and bikes added by Hidden Depths. Possible parts include engine/speed upgrades, added armor, and hood-mounted weapons. Give each part a defined compatible vehicle/slot list, balanced stats, installation/removal flow, and save-persistent ownership and configuration. Do not promise compatibility with every base-game or third-party vehicle unless it has been explicitly tested.
+
 ## Gangs and encounter pools
 
 Bring the Hidden Depths factions into the outskirts' appropriate encounter pools. A hostile faction already discovered through its required hostile building encounter may appear in suitable city locations. A hostile faction that has not yet been discovered must first be introduced through an authored hostile building encounter; only after that encounter should it join real-world hostile pools, including eligible outskirts building activities. Persist each faction's unlock state so reloads do not change it.
@@ -86,9 +98,11 @@ Treat the city as a major map project: build a small vertical slice first, verif
 5. Add the main quest arc, side activities, local fixers, clinics, vendors, and their persistent unlocks.
 6. Build the authored hostile-building and eligible hostage-character pools, including the captain rescue, and test selection and save behavior.
 7. Add gang introduction missions, leaders, and faction-pool integration with building-first discovery gating.
-8. Add recruitable allies, companion interactions, and optional adult partner storylines; test persistence and combat balance.
-9. Expand the map with more districts, underground spaces, garages, rewards, and repeatable contracts.
-10. Run compatibility, save migration, streaming, performance, and full quest regression passes before packaging.
+8. Add the captain's scrapyard lead, dog encounter, three-turret power objective, and Scrapper vendor unlock.
+9. Add Scrapper stock rotation and installable vehicle-part upgrades for Hidden Depths cars and bikes; test stats, targeting, purchases, and save persistence.
+10. Add recruitable allies, companion interactions, and optional adult partner storylines; test persistence and combat balance.
+11. Expand the map with more districts, underground spaces, garages, rewards, and repeatable contracts.
+12. Run compatibility, save migration, streaming, performance, and full quest regression passes before packaging.
 
 ## Test plan
 
@@ -102,5 +116,7 @@ Treat the city as a major map project: build a small vertical slice first, verif
 - Confirm at least two eligible rescued adult NPCs support optional partner stories and can independently be recruited as allies; test custom weapon loadouts and ammunition for every mod-added combat-capable NPC type, including partners.
 - Check relationship paths are optional, adult-only, choice-driven, and separate from ally recruitment.
 - Confirm gangs enter regional pools only after their required hostile building introduction; verify the friendly kid gang stays out of combat pools.
+- Test the captain-to-scrapyard quest chain, aggressive dog encounter, gang leader power-unit drop, three-turret activation, and safe target filtering for V and friendly NPCs.
+- Verify Scrapper vendors unlock only after the old man's rescue; test randomized stock persistence, purchase behavior, and vehicle-part compatibility, installation, removal, and stats.
 - Test fixers, clinics, shops, quest progression, services, unique rewards, and save/reload persistence.
 - Confirm existing Night City routes and quests remain unaffected.
