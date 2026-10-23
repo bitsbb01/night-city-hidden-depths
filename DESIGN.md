@@ -49,9 +49,9 @@ Choose jobs from authored mission templates and locations, with randomized targe
 
 A later update may add a hostage rescue for Nette, a new ripperdoc. After V rescues her, she opens her own clinic in a new area and can install the body's cybernetics and upgrades introduced by this mod.
 
-The clinic's vendor should discover cybernetics added by installed mods and offer compatible items for purchase and installation whenever their item definitions expose the information needed by the supported modding frameworks. Keep a compatibility check and report unsupported item definitions clearly rather than silently listing unusable gear.
+Her clinic should include a cross-mod cyberware catalog. It should discover cybernetics from installed mods, normalize their item IDs, slots, stats, prices, and installation requirements, and offer the compatible items to V. Use adapters for mods that need special handling, leave other mods' item records untouched, and provide a compatibility report for entries that cannot safely be installed. The goal is broad support for installed cyberware mods; items without usable definitions may need an adapter. See the [cross-mod cyberware integration plan](docs/cross-mod-cyberware.md).
 
-Nette's hair and nail appearance each change to a randomly selected style every **six in-game days**. Save the current styles and next change day so loading a save does not reroll them early. Track her rescue, clinic unlock, installed-mod catalog, and appearance cycle separately from the other hostage rewards. This is future-version content and does not alter the initial hostage event odds.
+Nette's hair and nail appearance each change to a randomly selected style every **six in-game days**. Save the current styles and next change day so loading a save does not reroll them early. Track her rescue, clinic unlock, cyberware catalog, and appearance cycle separately from the other hostage rewards. This is future-version content and does not alter the initial hostage event odds.
 
 ## Enemies and mutations
 
@@ -99,7 +99,7 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 8. Add more building variants, the rare hostage roll, and mutated enemy encounters.
 9. Add the rescued shop owner in a later version after the core location and shop area are ready.
 10. Add Josiah's rescue, persistent apartment fixer contact, and replayable city jobs in a later story update.
-11. Add Nette's rescue, clinic, installed-mod cyberware catalog, and six-day hair/nail appearance cycle in a later update.
+11. Add Nette's rescue, clinic, cross-mod cyberware catalog, and six-day hair/nail appearance cycle in a later update.
 12. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
 
 ## Compatibility and testing notes
