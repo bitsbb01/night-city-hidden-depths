@@ -128,6 +128,14 @@ Add an authored hostage rescue for a new ocular doctor in the outskirts hostile-
 
 Prototype and balance night vision, hostile tracking/highlighting, sniper-scope enhancement, optic zoom, and glare reduction. Define item IDs, ocular slots/capacity, costs, activation and save state. Integrate supported ocular items into the shared registry used by Nette's clinic, using optional adapters and leaving other mods' item records untouched. Test features in game and mark unsupported effects clearly when reliable hooks are unavailable. Follow the [cross-mod cyberware plan](cross-mod-cyberware.md) and [outskirts city plan](outskirts-city-plan.md).
 
+## Post-launch feature queue: comic-shop owner and reader
+
+Add a rescued comic-shop owner to the outskirts hostage content. After rescue, they establish a store with physical-looking shelf covers and an interactive catalog. Selecting a comic opens a custom in-game viewer.
+
+Use the base-game **Dr. Havoc & Radon** comic shard as a lore reference only; it is not a full PDF comic library. Add the user's original **Last Instinct — Issue 1** when the finished PDF is available, and bundle online comics only when redistribution and conversion rights are documented. A starter free-to-use title is **Sharing Creative Works: An Illustrated Primer**, which Creative Commons dedicates to the public domain.
+
+Convert approved PDFs into optimized page images during packaging, create cover thumbnails and a title/license/page manifest, and display the pages in a custom UI widget. Prototype the rendering and navigation in game; direct PDF rendering is not assumed. See the detailed [comic store and reader plan](comic-store-plan.md).
+
 ## Current repository state
 
 The repository currently contains the design documents, a location data definition, a Python validator with tests, and ZIP packaging automation. It does not yet contain game assets, scripts, or an installable build. The release workflow intentionally refuses to create a release ZIP until actual installable files exist under `game-root/`.
