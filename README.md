@@ -17,6 +17,7 @@ The feature scope, first Watson location, quest outline, and machine-readable co
 - [Nette's cross-mod cyberware integration plan](docs/cross-mod-cyberware.md)
 - [Virtual Atelier integration plan](docs/virtual-atelier-integration.md)
 - [Mod-added NPC appearance plan](docs/npc-appearance-plan.md)
+- [Future gangs and arcade hideout plan](docs/future-gangs.md)
 - [Location content definition](content/locations/quiet-track.json)
 
 The JSON definition records layout, pacing, encounter variation, hostage odds, one-time rewards, loot, and save-state requirements. It is validated as design data; it does not run in the game.
