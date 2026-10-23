@@ -136,6 +136,10 @@ Use the base-game **Dr. Havoc & Radon** comic shard as a lore reference only; it
 
 Convert approved PDFs into optimized page images during packaging, create cover thumbnails and a title/license/page manifest, and display the pages in a custom UI widget. Prototype the rendering and navigation in game; direct PDF rendering is not assumed. See the detailed [comic store and reader plan](comic-store-plan.md).
 
+## Post-launch feature queue: arcade owner and playable venues
+
+Add a distinct adult arcade-owner rescue. Once rescued, the owner opens several persistent arcades across Night City; add venues in the outskirts expansion later. At new venues, reuse the base game's Trauma Drama and Roach Race activations only if a supported hook can start them reliably. Add original cabinet games in maze-chase, falling-block, and retro first-person shooter genres with original names, code, art, sounds, and scoring. Do not bundle base-game assets or launch external executables. Review each game's code and asset licenses separately; “freeware” alone is not redistribution permission. Prototype one in-game minigame, cabinet exit/input behavior, score persistence, package size, and performance before expanding the catalog. Keep this adult owner's commercial network separate from Josiah's friendly kid-gang arcade hideout. Follow [the arcade network plan](arcade-network-plan.md).
+
 ## Current repository state
 
 The repository currently contains the design documents, a location data definition, a Python validator with tests, and ZIP packaging automation. It does not yet contain game assets, scripts, or an installable build. The release workflow intentionally refuses to create a release ZIP until actual installable files exist under `game-root/`.
