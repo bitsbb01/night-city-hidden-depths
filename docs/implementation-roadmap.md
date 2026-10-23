@@ -62,6 +62,14 @@ A future story update may add a separate rescue for Josiah, a hostage child. Aft
 
 Build the jobs from authored mission and location templates, varying targets, objectives, and rewards. Persist each active job across saves so a reload cannot reroll it. Keep Josiah's rescue and fixer unlock in their own save state; this feature does not change the initial 5% hostage odds and is not required for the first playable release.
 
+## Post-launch feature queue: gangs and Josiah's arcade hideout
+
+Add an adult stealth faction with silent weapons, ambushes, and flanking, plus a separate all-female faction with its own appearance, dialogue, equipment, and encounter variants. Add both to selected hostile random encounter pools, saving the selected faction for the active run.
+
+After Josiah's rescue, his story reveals a friendly kid gang that uses hiding, scavenging, and theft. Some child NPCs around the city belong to it. They can offer information, diversions, hidden routes, and help recovering small stolen items. Josiah reveals their separate old-building hideout, which is filled with arcade machines.
+
+Keep the kid gang out of hostile pools and the new building combat areas. Exclude its members from enemy targeting and faction-changing effects. Persist the reveal and hideout access. Follow the [future gangs and arcade hideout plan](future-gangs.md).
+
 ## Post-launch feature queue: Nette ripperdoc
 
 A future update may add a separate hostage rescue for Nette. After V rescues her, she opens her own clinic and offers installation for the mod's body cybernetics and upgrades.
@@ -74,7 +82,7 @@ Change Nette's hair and nail styles independently every six in-game days. Store 
 
 Create a uniquely named Hidden Depths store once gear discovery and reward flags are in place. When V finds a Hidden Depths clothing, armor, or weapon reward, unlock that entry for later purchase in the store; keep undiscovered rewards hidden.
 
-Create makeup and tattoo assets as separate cosmetic content, then add them to Atelier where the supported store integration accepts them. If an appearance option is not a normal purchaseable item, link a compatible appearance menu from the shop instead. Virtual Atelier registers stores for existing item records; it does not create the underlying items. Follow the [Virtual Atelier integration plan](virtual-atelier-integration.md).
+Create makeup and tattoo assets as separate cosmetic content, then add them to Atelier where the supported store integration accepts them. If an appearance option is not a normal purchasable item, link a compatible appearance menu from the shop instead. Virtual Atelier registers stores for existing item records; it does not create the underlying items. Follow the [Virtual Atelier integration plan](virtual-atelier-integration.md).
 
 Declare Virtual Atelier and required frameworks as dependencies for the optional store package. Test with the framework installed and missing, check store and item ID uniqueness, verify discovery unlocks persist across reloads, and test item previews and cosmetic application. This feature is post-launch and not required for the first playable release.
 
