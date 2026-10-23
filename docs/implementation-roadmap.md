@@ -10,6 +10,10 @@ CD PROJEKT RED provides REDmod and recommends using WolvenKit for its mod author
 
 The game project will need a Windows Cyberpunk 2077 installation and a current WolvenKit project. New geometry and connected interior spaces also need authored assets and in-game placement checks. Runtime quest state, random encounters, persistent rewards, and custom item behavior will need the compatible scripting and data tools for the supported game patch. Confirm framework versions when the first game project is created; mod compatibility can change with game updates.
 
+## Version sequence
+
+Follow the [version and release plan](version-release-plan.md): finish and test Version 1.0 as a focused Watson release first, then deliver the larger feature set in staged downloadable updates through the outskirts expansion. Do not advance a public release milestone until its in-game acceptance tests pass.
+
 ## Milestones
 
 ### 1. First playable location
