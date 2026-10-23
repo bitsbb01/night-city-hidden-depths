@@ -45,7 +45,7 @@ Add Nette's rescue, clinic, cyberware catalog, and six-day hair/nail cycle. Esta
 
 ### Version 1.6 — Arcade owner and arcade network
 
-Add the separate adult arcade-owner hostage rescue and unlock several playable venues across Night City. Reuse the base game's Trauma Drama and Roach Race at mod-added cabinets only if their native activation can be invoked reliably. Prototype original maze-chase, falling-block, and retro first-person shooter cabinet games with original names and assets; audit code, engine, and media licenses before bundling anything. Keep this network separate from Josiah's friendly kid-gang hideout. Add outlets in the outskirts after the region is playable. Test controller/keyboard input, exiting cabinets, score and reward persistence, and performance.
+Add the separate adult arcade-owner hostage rescue and unlock several playable venues across Night City. Reuse the base game's Trauma Drama and Roach Race at mod-added cabinets only if their native activation can be invoked reliably. Create original, free-to-play maze-chase, falling-block, and retro first-person shooter cabinet games with our own code and assets; keep third-party game dependencies optional and license-checked. Keep this network separate from Josiah's friendly kid-gang hideout. Add outlets in the outskirts after the region is playable. Test controller/keyboard input, exiting cabinets, score and reward persistence, and performance.
 
 ### Version 2.0 — Outskirts city: first playable district
 
