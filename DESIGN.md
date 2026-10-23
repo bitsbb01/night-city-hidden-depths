@@ -47,11 +47,11 @@ Choose jobs from authored mission templates and locations, with randomized targe
 
 ## Future version: gangs and Josiah's arcade network
 
-Add two hostile adult factions to selected random encounter pools: a stealth-focused gang that favors silent weapons, ambushes, and flanking, and a separate gang whose members are all women. Give each its own appearance, dialogue, equipment, and authored encounter variations.
+Add at least **six distinct hostile gang types** to the future faction pool: the stealth-focused gang, the all-female gang, and at least four additional gangs with their own identities, appearances, tactics, dialogue, equipment, and leaders. Each hostile faction should have an authored leader encounter in a building; after V meets that faction there and they are hostile, unlock its members and leader encounters in appropriate real-world city enemy pools. Save each faction's discovery/unlock so the open-world encounters remain consistent after reloads.
 
 Josiah's future storyline also reveals a friendly kid gang that specializes in hiding, scavenging, and theft. The player learns about them only after finding and rescuing Josiah. Some children around the city belong to this group, but their affiliation stays unmarked until the reveal. They can help V with information, distractions, hidden routes, and recovering small stolen items.
 
-Their hideout is a separate old building filled with arcade machines. This is social and exploration content: the kid gang is never hostile, never appears in the new building areas' combat encounters, and is excluded from enemy targeting and faction-changing effects. Persist Josiah's reveal and hideout access in the save. See the [future gangs and arcade hideout plan](docs/future-gangs.md).
+Their hideout is a separate old building filled with arcade machines. This is social and exploration content: the kid gang is never hostile, never appears in the new building areas' combat encounters or hostile open-world pools, and is excluded from enemy targeting and faction-changing effects. Persist Josiah's reveal and hideout access in the save. See the [future gangs and arcade hideout plan](docs/future-gangs.md).
 
 ## Future version: Nette, rescued ripperdoc
 
@@ -119,7 +119,7 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 8. Add more building variants, the rare hostage roll, and mutated enemy encounters.
 9. Add the rescued shop owner in a later version after the core location and shop area are ready.
 10. Add Josiah's rescue, persistent apartment fixer contact, and replayable city jobs in a later story update.
-11. Add Josiah's gang reveal, friendly arcade hideout, and separate stealth and all-female hostile factions.
+11. Add Josiah's gang reveal, friendly arcade hideout, and the six hostile factions. Unlock each hostile faction in real-world encounters only after its first hostile building encounter.
 12. Add Nette's rescue, clinic, cross-mod cyberware catalog, and six-day hair/nail appearance cycle in a later update.
 13. Add the Virtual Atelier store, discovered-item unlocks, and supported makeup/tattoo integrations in a later release.
 14. Add original appearances and optional eye-pack compatibility for Hidden Depths NPCs.
