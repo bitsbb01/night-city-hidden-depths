@@ -56,6 +56,12 @@ For each candidate build:
 - Test the current supported game patch and record required frameworks and known issues.
 - Publish the tested install-layout files through the ZIP release workflow.
 
+## Post-launch feature queue: Josiah fixer
+
+A future story update may add a separate rescue for Josiah, a hostage child. After the rescue, make him a persistent fixer contact in the apartment where V first starts free-roam. He offers repeatable city jobs through a fixer app.
+
+Build the jobs from authored mission and location templates, varying targets, objectives, and rewards. Persist each active job across saves so a reload cannot reroll it. Keep Josiah's rescue and fixer unlock in their own save state; this feature does not change the initial 5% hostage odds and is not required for the first playable release.
+
 ## Current repository state
 
 The repository currently contains the design documents, a location data definition, a Python validator with tests, and ZIP packaging automation. It does not yet contain game assets, scripts, or an installable build. The release workflow intentionally refuses to create a release ZIP until actual installable files exist under `game-root/`.
