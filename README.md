@@ -23,6 +23,7 @@ The feature scope, first Watson location, quest outline, and machine-readable co
 - [Comic store and in-game reader plan](docs/comic-store-plan.md)
 - [Rescued arcade owner and playable arcade network plan](docs/arcade-network-plan.md)
 - [Location content definition](content/locations/quiet-track.json)
+- [Quest flow definition](content/quests/quiet-track-flow.json)
 
 The JSON definition records layout, pacing, encounter variation, hostage odds, one-time rewards, loot, and save-state requirements. It is validated as design data; it does not run in the game.
 
@@ -36,9 +37,10 @@ The release workflow deliberately stops if `game-root/` contains no actual mod p
 
 ## Repository layout
 
-- `content/locations/` — authored location definitions used for content checks.
+- `content/locations/` and `content/quests/` — authored location and quest-flow definitions used for content checks.
 - `game-root/` — files arranged as they should appear under the Cyberpunk 2077 install directory.
 - `scripts/validate_content.py` — checks key design constraints in the location definitions.
+- `scripts/validate_quest_flow.py` — checks quest graph transitions, reachability, terminal states, and save facts.
 - `tests/` — tests for the location content rules.
 - `scripts/package_release.py` — validates and packages the installable payload.
 - `.github/workflows/package-release.yml` — tests, validates, and builds a ZIP on version tags, then publishes it as a GitHub Release asset.
