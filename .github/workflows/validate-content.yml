@@ -12,7 +12,7 @@ permissions:
 
 jobs:
   validate:
-    name: Validate location content
+    name: Validate authored content
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -25,3 +25,5 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Validate authored locations
         run: python scripts/validate_content.py
+      - name: Validate authored quest flows
+        run: python scripts/validate_quest_flow.py
