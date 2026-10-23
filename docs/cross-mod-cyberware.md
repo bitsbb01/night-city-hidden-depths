@@ -43,6 +43,14 @@ The design goal is broad support for installed cyberware mods. Universal support
 - Preserve purchases and installed cyberware through save/reload.
 - Keep Nette's rescue and clinic unlock independent from Josiah, the shop owner, and the vehicle painter.
 
+## Ocular specialist catalog
+
+The outskirts eye doctor owns the user-facing ocular catalog; Nette's clinic and the shared registry provide compatible installation data. Separate cosmetic eye presets from functional cyberware so eye appearance and installed optics do not conflict.
+
+Ocular catalog entries may provide night vision, hostile tracking/highlighting, sniper-scope enhancement, optic zoom, glare reduction, and robotic-eye variations. Each functional entry needs a stable item ID, supported slot, capacity cost, price, prerequisites, activation behavior, and balance notes. Cosmetics need their own appearance IDs and fallbacks.
+
+Prototype features that depend on camera, scanning, UI, or weapon hooks in the target game version. Only advertise as working what passes in-game tests. Optional compatibility adapters must not alter other mods' records, and missing/unrecognized external ocular items should be reported or omitted safely.
+
 ## Test plan
 
 Test the clinic with:
