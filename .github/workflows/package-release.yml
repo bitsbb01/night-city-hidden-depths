@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   package:
-    name: Build downloadable mod ZIP
+    name: Validate and package downloadable mod ZIP
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -22,7 +22,10 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Validate and package mod
+      - name: Validate authored location content
+        run: python scripts/validate_content.py
+
+      - name: Validate and package game files
         run: python scripts/package_release.py
 
       - name: Save ZIP as workflow artifact
