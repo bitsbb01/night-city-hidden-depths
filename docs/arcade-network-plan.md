@@ -22,11 +22,22 @@ Prototype the interaction first. If the supported game patch exposes no reliable
 
 ### New classics-inspired games
 
-Build the cabinet games ourselves as original, free-to-play minigames for this mod. They will have original names, code, graphics, sounds, and scoring, so the core arcade catalog will not depend on obtaining third-party games or licenses. Candidate games:
+Build **at least ten** cabinet games ourselves as original, free-to-play minigames for this mod. They will have original names, code, graphics, sounds, and scoring, so the core arcade catalog will not depend on obtaining third-party games or licenses. The first catalog should include these distinct game types:
 
 - **Maze chase** — a Pac-Man-like maze game with original character designs, maze layouts, sounds, and name.
 - **Falling blocks** — a Tetris-like block-stacking puzzle with original shapes, UI, scoring, and name. Do not use the Tetris name, logo, or protected visual/audio presentation.
-- **Retro first-person maze shooter** — a small Doom-like game using original code or a compatible licensed engine and content. Freedoom's game content is available under a three-clause BSD license, but it is game data, not a drop-in Cyberpunk UI minigame; verify the complete dependency and asset licenses and technical compatibility before bundling any portion.
+- **Retro first-person maze shooter** — a small retro maze shooter using original code and original content; it should not use Doom branding or assets.
+- **Skyline Ace** — an original side-view flying game with flight lanes, obstacles, and rescue or delivery objectives.
+- **Neon Runway** — an original overhead flight-dodging game with fuel and score pickups.
+- **Scrapstorm** — an original arcade space-flight survival game with waves of debris and hostile drones.
+- **Turbo Circuit** — an original top-down racing game with short tracks and lap records.
+- **Byte Serpent** — an original grid-based growing-tail game.
+- **Wallbreaker 2099** — an original paddle-and-brick game with power-ups.
+- **Signal Beat** — an original rhythm and timing game using a new soundtrack.
+- **Drone Salvage** — an original score-attack game about piloting a salvage drone through hazards.
+- **Gridlock Tactics** — an original quick puzzle game with rotating routes and timed objectives.
+
+All names and creative assets are working titles until checked against existing works. Keep their code, characters, levels, visuals, sound, UI, and scoring original; use familiar genres as high-level inspiration only. The optional Freedoom-content shooter has a separate licensing and technical review and is not required for the ten-game target.
 
 A simple custom UI game is the preferred first prototype. Do not launch arbitrary external executables from the game. Third-party free/open games may be optional additions only after checking the code and asset licenses. An embedded engine or renderer must be reviewed for game compatibility, platform support, dependencies, package size, and performance.
 
@@ -45,7 +56,7 @@ Persist each cabinet's unlocked/available game list and the player's best scores
 1. Build one arcade-room slice and verify cabinet placement, interaction, player exit, and save/reload.
 2. Test how native Trauma Drama and Roach Race activations can be invoked at a mod-added venue on the supported game version.
 3. Prototype one original 2D cabinet minigame with controller, keyboard, pause, exit, focus, input-lock, and accessibility checks.
-4. Add new games only after the in-game runtime and licensing manifest are validated; evaluate the Freedoom-content shooter separately.
+4. Build the catalog in stages, reaching at least ten original playable games after the in-game runtime, controls, and score persistence are validated. Any optional third-party game or content pack gets a separate license and technical review.
 5. Add the owner rescue and unlock several venues in Night City; add outskirts venues with the city expansion.
 6. Test cabinet interactions, score persistence, rewards, performance, NPC navigation, and conflicts with other interaction mods.
 
