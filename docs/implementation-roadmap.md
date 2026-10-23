@@ -64,7 +64,9 @@ Build the jobs from authored mission and location templates, varying targets, ob
 
 ## Post-launch feature queue: gangs and Josiah's arcade hideout
 
-Add an adult stealth faction with silent weapons, ambushes, and flanking, plus a separate all-female faction with its own appearance, dialogue, equipment, and encounter variants. Add both to selected hostile random encounter pools, saving the selected faction for the active run.
+Add at least six hostile gang types: the stealth faction, the all-female faction, and at least four additional distinct factions. Give every hostile faction its own identity, combat style, equipment, leader, and authored leader encounter.
+
+Introduce each hostile faction in a building. Only after V encounters it there as hostile should its members and leader encounters become eligible in the appropriate real-world city enemy pools. Persist the discovery flag per faction so saves and reloads do not unlock groups early or reroll their status.
 
 After Josiah's rescue, his story reveals a friendly kid gang that uses hiding, scavenging, and theft. Some child NPCs around the city belong to it. They can offer information, diversions, hidden routes, and help recovering small stolen items. Josiah reveals their separate old-building hideout, which is filled with arcade machines.
 
