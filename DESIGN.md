@@ -53,6 +53,12 @@ Josiah's future storyline also reveals a friendly kid gang that specializes in h
 
 Their hideout is a separate old building filled with arcade machines. This is social and exploration content: the kid gang is never hostile, never appears in the new building areas' combat encounters or hostile open-world pools, and is excluded from enemy targeting and faction-changing effects. Persist Josiah's reveal and hideout access in the save. See the [future gangs and arcade hideout plan](docs/future-gangs.md).
 
+## Future version: rescued arcade owner and arcade network
+
+Add a separate adult arcade owner to the future hostage pool. After V rescues them, they open several arcades across Night City and later the outskirts city. Each venue has playable cabinets, a persistent unlock, and optional high-score rewards. Keep this character and commercial arcade network separate from Josiah's friendly kid-gang hideout.
+
+Use the base game's own cabinet activations for **Trauma Drama** and **Roach Race** at the new venues if supported hooks allow it; do not copy or redistribute base-game logic or assets. Add original small cabinet games in maze-chase, falling-block, and retro first-person maze-shooter genres, with original names and presentation. Avoid the Pac-Man/Tetris/Doom brands, characters, art, music, and other protected expression. Third-party open-source or public-domain games may be bundled only after verifying the licenses for code, engine, and every asset, and meeting attribution/source obligations. Prefer an in-game UI prototype and do not launch external executables. See the [arcade owner and network plan](docs/arcade-network-plan.md).
+
 ## Future version: Nette, rescued ripperdoc
 
 A later update may add a hostage rescue for Nette, a new ripperdoc. After V rescues her, she opens her own clinic in a new area and can install the body's cybernetics and upgrades introduced by this mod.
