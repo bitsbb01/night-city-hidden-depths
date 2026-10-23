@@ -14,6 +14,7 @@ The feature scope, first Watson location, quest outline, and machine-readable co
 - [First Watson location: The Quiet Track](docs/first-location.md)
 - [First side activity outline](docs/quest-01-the-quiet-track.md)
 - [Implementation roadmap](docs/implementation-roadmap.md)
+- [Nette's cross-mod cyberware integration plan](docs/cross-mod-cyberware.md)
 - [Location content definition](content/locations/quiet-track.json)
 
 The JSON definition records layout, pacing, encounter variation, hostage odds, one-time rewards, loot, and save-state requirements. It is validated as design data; it does not run in the game.
