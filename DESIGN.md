@@ -83,7 +83,7 @@ Expand the outskirts hostage pool with authored local characters who can join th
 
 Add original recruitable allies with a companion feature set inspired by [Night City Allies — Immersive Companion System](https://www.nexusmods.com/cyberpunk2077/mods/27625): hangouts, recruitable squad members, phone/contact-based summoning, follow and combat behavior, supported commands, outfit and equipment options, persistent unlocks, and selected apartment or safe-location interactions. This is a feature reference, not permission to reuse its code or assets. Build Hidden Depths companions independently; optional compatibility should use permitted, documented hooks only.
 
-New adult characters may also have optional, choice-driven partner storylines. Keep romance separate from ally recruitment and respect player choices; rescuing a character does not automatically create a relationship. Preserve existing story-critical characters and state. See the [outskirts city plan](docs/outskirts-city-plan.md).
+At least two eligible rescued adult NPCs may have optional, choice-driven partner storylines and can also be recruited as allies. Keep romance separate from ally recruitment and respect player choices; rescuing a character does not automatically create a relationship. All mod-added NPC archetypes, including allies and partners, need compatible equipment/loadout support for the new weapons. Combat-capable NPCs can use discovered Hidden Depths weapons with compatible ammunition; use role-appropriate gear and preserve peaceful service scenes. Preserve existing story-critical characters and state. See the [outskirts city plan](docs/outskirts-city-plan.md).
 
 ## Enemies and mutations
 
@@ -98,6 +98,7 @@ New adult characters may also have optional, choice-driven partner storylines. K
 - Add original standalone weapons, clothing/armor, and functional cyberware as rewards.
 - Give custom weapons compatible ammunition so players can find more rounds in containers and on enemies.
 - Add custom weapons to selected gang loadouts and drops. After V first discovers a weapon, selected later encounters may start using it.
+- Provide compatible loadouts for all mod-added combat-capable NPCs, including recruitable allies and partner characters; allow assigned discovered weapons and ensure compatible ammunition and combat behavior.
 - Keep early-game rewards balanced and distribute rare gear in optional or dangerous areas.
 
 ### One-off weapon: Badge Roulette
