@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "location_id": "watson_quiet_track",
+  "title": "The Quiet Track",
+  "creator": "Bitsbb01",
+  "district": "Watson",
+  "availability": "early_free_roam",
+  "target_playtime_minutes": 22,
+  "layout": {
+    "generation_mode": "select_authored_variant",
+    "procedural_geometry": false,
+    "zones": [
+      {"id":"street_entry","kind":"exterior","purpose":"early-game approach and entrance choice","minutes":2},
+      {"id":"safehouse","kind":"safehouse","purpose":"weapon storage, bed, computer","minutes":2},
+      {"id":"freight_floor","kind":"combat","purpose":"first gang patrols and investigation","minutes":4},
+      {"id":"service_basement","kind":"combat","purpose":"power and camera routes, optional stash","minutes":4},
+      {"id":"maintenance_tunnels","kind":"exploration","purpose":"alternate paths and optional rooms","minutes":5},
+      {"id":"rail_chambers","kind":"combat","purpose":"large old-track space, lieutenant and relay","minutes":5}
+    ],
+    "entrances": [
+      {"id":"safehouse_door","destination":"safehouse","initially_accessible":true},
+      {"id":"freight_gate","destination":"freight_floor","initially_accessible":true}
+    ],
+    "return_route": "freight_lift_or_service_gate"
+  },
+  "replay": {
+    "authored_encounter_variants": ["quiet_track_a"],
+    "fixed_geometry": true,
+    "randomized": ["patrols","enemy_archetypes","camera_state","power_state","stash","loot","mutant_encounter"],
+    "persist_variant_until_run_complete": true,
+    "reroll_only_after_core_objective": true
+  },
+  "quest": {
+    "id":"hd_quest_quiet_track",
+    "core_objectives":["recover_route_ledger","disable_salvage_relay","open_return_route"],
+    "hostage_event_chance":0.05,
+    "hostage_types":["civilian","captured_ncpd_officer","vehicle_painter"],
+    "hostage_roll_once_per_new_run":true,
+    "hostage_state_persists_during_run":true,
+    "special_hostage_once_per_save":true
+  },
+  "loot": {
+    "vanilla_weapon_and_ammo_drops":true,
+    "custom_weapon_ammo_drops":true,
+    "custom_clothing_armor_cyberware":true,
+    "mutant_encounter_variant":true,
+    "unique_once_per_save":["badge_roulette"],
+    "enemy_custom_weapon_loadouts_require_player_discovery":true
+  },
+  "vehicle_rewards": {
+    "hidden_garage_variant":true,
+    "claimable_vanilla_vehicle_variants":["paint","body_kit"],
+    "garage_unlock_persists":true,
+    "painter_unlocks_persistent_service":true,
+    "paint_options":["single_color","mixed_colors","color_shift"],
+    "painted_vehicle_app_targets_owned_configured_vehicles":true
+  },
+  "save_keys": [
+    "quiet_track.active_run_variant",
+    "quiet_track.run_state",
+    "quiet_track.hostage_roll",
+    "quiet_track.hostage_outcome",
+    "quiet_track.safehouse_unlocked",
+    "quiet_track.badge_roulette_awarded",
+    "quiet_track.painter_rescued",
+    "quiet_track.painter_service_unlocked"
+  ]
+}
