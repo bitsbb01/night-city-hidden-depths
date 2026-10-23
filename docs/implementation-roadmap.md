@@ -114,6 +114,14 @@ Build original recruitable allies with a companion feature set inspired by [Nigh
 
 At least two eligible rescued adult NPCs may have optional, choice-driven partner storylines and can also be recruited as allies. Keep romance and ally recruitment as independent choices; neither is automatic upon rescue. Add equipment/loadout support so every mod-added combat-capable NPC, including allies and partners, can use discovered Hidden Depths weapons with compatible ammunition. Use role-appropriate peaceful and combat loadouts and preserve existing Cyberpunk 2077 story states. Follow the detailed [outskirts city plan](outskirts-city-plan.md).
 
+## Post-launch feature queue: scrapyard and Scrapper network
+
+After the outskirts police captain rescue, add the captain's lead to an injured old man trapped in a junkyard at the region's edge. Build a rescue encounter with multiple aggressive dogs, the hut in the yard center, a gang leader below a turret pole carrying the power unit, and three elevated automatic turrets that activate after V restores power. The turrets clear remaining hostile dogs and hostile intruders while explicitly excluding V, rescued NPCs, civilians, and recruited allies.
+
+Rescuing the old man unlocks the first Scrapper vendor and causes him to notify his Scrapper friends. Add non-hostile Scrapper NPC vendors at authored locations with randomized Hidden Depths weapon and vehicle-part stock. Save each vendor's inventory/refresh state and purchased flags.
+
+Create upgrade parts for Hidden Depths cars and bikes, including speed, armor, and hood-mounted weapon options. Define vehicle/slot compatibility and implement balanced installation/removal, controls for weaponized upgrades, and save-persistent configurations. Validate each supported vehicle in-game before listing it as compatible. Follow the detailed [outskirts city plan](outskirts-city-plan.md).
+
 ## Current repository state
 
 The repository currently contains the design documents, a location data definition, a Python validator with tests, and ZIP packaging automation. It does not yet contain game assets, scripts, or an installable build. The release workflow intentionally refuses to create a release ZIP until actual installable files exist under `game-root/`.
