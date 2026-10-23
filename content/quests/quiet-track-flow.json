@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "quest_id": "hd_quest_quiet_track",
+  "title": "The Quiet Track",
+  "creator": "Bitsbb01",
+  "start_node": "find_lead",
+  "terminal_nodes": ["complete"],
+  "nodes": [
+    {
+      "id": "find_lead",
+      "type": "start",
+      "required": true,
+      "summary": "V discovers the optional Watson freight-building lead.",
+      "next": ["reach_site"]
+    },
+    {
+      "id": "reach_site",
+      "type": "objective",
+      "required": true,
+      "summary": "Travel to the abandoned freight-services building.",
+      "next": ["choose_entrance"]
+    },
+    {
+      "id": "choose_entrance",
+      "type": "choice",
+      "required": true,
+      "summary": "Choose the safehouse door or the hostile freight entrance.",
+      "next": ["safehouse_entry", "freight_entry"]
+    },
+    {
+      "id": "safehouse_entry",
+      "type": "route",
+      "required": false,
+      "summary": "Enter the safehouse, inspect its computer, bed, and weapon storage, then circle around to the freight entrance.",
+      "next": ["freight_entry"]
+    },
+    {
+      "id": "freight_entry",
+      "type": "route",
+      "required": true,
+      "summary": "Enter the hostile route through the freight gate.",
+      "next": ["recover_ledger"]
+    },
+    {
+      "id": "recover_ledger",
+      "type": "objective",
+      "required": true,
+      "summary": "Search the lower floors and recover the salvage crew route ledger.",
+      "next": ["disable_relay"]
+    },
+    {
+      "id": "disable_relay",
+      "type": "objective",
+      "required": true,
+      "summary": "Reach the rail chambers and disable the salvage relay.",
+      "next": ["open_return"]
+    },
+    {
+      "id": "open_return",
+      "type": "objective",
+      "required": true,
+      "summary": "Open the freight lift or service gate as a return route.",
+      "next": ["complete"]
+    },
+    {
+      "id": "complete",
+      "type": "terminal",
+      "required": true,
+      "summary": "Complete the side activity and preserve the safehouse unlock.",
+      "next": []
+    }
+  ],
+  "save_facts": [
+    "quiet_track.quest_started",
+    "quiet_track.entry_route",
+    "quiet_track.ledger_recovered",
+    "quiet_track.relay_disabled",
+    "quiet_track.return_route_open",
+    "quiet_track.safehouse_unlocked",
+    "quiet_track.quest_completed"
+  ],
+  "completion_rules": {
+    "all_required_objectives_must_be_complete": true,
+    "safehouse_visit_is_optional": true,
+    "quest_can_be_abandoned_without_losing_progress": true,
+    "one_time_rewards_are_managed_by_location_save_state": true
+  }
+}
