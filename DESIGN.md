@@ -33,6 +33,12 @@ A hostage event has a **5% chance per building run**. The captive may be a civil
 
 One special hostage is a vehicle painter. Once rescued, he appears at a persistent garage in the normal world. He can install custom paint technology and give V an in-game paint app/menu for upgraded vehicles. It should support a color picker, two-tone paint, and a color-shifting finish. The shifting finish must be installed on each supported vehicle before remote color changes are available.
 
+## Future version: rescued shop owner
+
+A later version may add a separate hostage rescue for a shop owner. After V rescues this person, they settle into one of the new shop areas in the normal world and open a usable store. Keep this character and rescue state separate from the vehicle painter so each reward has its own location and persistent save flag. The shop's inventory can grow with future equipment and building releases.
+
+This is planned post-launch content; it does not change the first location's current 5% hostage pool.
+
 ## Enemies and mutations
 
 - Include ordinary gang encounters plus selected bio-experiment encounters.
@@ -77,7 +83,8 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 6. Add Badge Roulette and test its NPC behavior and one-time save reward.
 7. Add a garage vehicle claim, then custom vehicle appearances and the painter/color app.
 8. Add more building variants, the rare hostage roll, and mutated enemy encounters.
-9. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
+9. Add the rescued shop owner in a later version after the core location and shop area are ready.
+10. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
 
 ## Compatibility and testing notes
 
