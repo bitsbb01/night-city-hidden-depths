@@ -25,7 +25,7 @@ Treat the region as a full expansion with a connected set of activities and char
 - Add a new local NPC cast: residents, workers, vendors, allies, quest contacts, police personnel, and faction members, with original appearances and dialogue.
 - Give the region its own fixer network, including new fixers who offer authored main and side jobs plus repeatable contracts.
 - Add new ripperdocs and clinics that provide services and support Hidden Depths cyberware. Nette may establish a clinic here if it fits the final story and location plan, while her pre-existing lead remains available in Night City.
-- Build shops and other social hubs, including space for future rescued shop-owner characters.
+- Build shops and other social hubs, including the rescued comic-shop owner, bookshelf displays, and an in-game reader for bundled comics.
 - Create a main quest arc, side jobs, rescue events, and optional activities that make the region feel connected to the wider Hidden Depths storyline.
 - Add a varied set of accessible interiors, underground routes, service tunnels, garages, and other points of interest.
 - Add traffic, pedestrians, ambient encounters, and appropriate faction activity across the region.
@@ -35,7 +35,7 @@ The intended scale is several substantial districts and a meaningful quest/activ
 
 ## Hostage and rescue character pool
 
-Use the region's hostage events to introduce original local characters who can become part of the city after rescue. The possible captives can include shop owners, ripperdocs, fixers, an ocular specialist/eye doctor, adult sex workers/joytoys, local workers, residents, police officers, and other authored NPCs. A rescued character can return to the outskirts and open or join an appropriate service, offer jobs or information, become an ally, or contribute to a follow-up quest, depending on their role.
+Use the region's hostage events to introduce original local characters who can become part of the city after rescue. The possible captives can include shop owners, a comic-shop owner, ripperdocs, fixers, an ocular specialist/eye doctor, adult sex workers/joytoys, local workers, residents, police officers, and other authored NPCs. A rescued character can return to the outskirts and open or join an appropriate service, offer jobs or information, become an ally, or contribute to a follow-up quest, depending on their role.
 
 Keep the existing rare hostage-event chance and save rules. Choose only from authored, eligible characters; prevent duplicate rescues and avoid selecting a character whose quest state is unavailable. Maintain the police captain as a separate authored rescue required to activate the station, so random selection cannot block that unlock. Include at least two eligible rescued adult NPCs who can later offer optional partner storylines; each can also be recruited as an ally, and rescue alone never starts a romance. All sex-worker characters and potential partners are adults. Make partner and ally choices independent so the player can choose friendship, partnership, both, or neither.
 
@@ -46,6 +46,16 @@ Add an authored hostage rescue for a new eye doctor (ocular specialist) in one o
 Her cosmetic catalog can unlock original eye colors and tints, iris shapes and patterns, and robotic or partly mechanical eye styles. Her functional ocular catalog can include night vision, a hostile-target tracker, and a sniper enhancer that improves supported scope magnification or target clarity while V uses a sniper rifle. Additional ocular upgrades can include optic zoom and glare reduction. Treat cosmetic eyes and functional implants as separate catalog entries so a player can change appearance without replacing their installed cyberware.
 
 Connect ocular implants to the shared cyberware catalog used by Nette, with stable item IDs, slot and capacity rules, prices, and optional compatibility adapters. Define toggle behavior, balance, and prerequisites. Prototype the night-vision filter, hostile marking, and sniper-scope changes in game before committing them as guaranteed features; provide a clear fallback or mark an effect unsupported if the required game hooks are unreliable. The clinic and catalog remain available after rescue, and rescue/unlock state persists across saves.
+
+## Comic-shop owner and in-game reader
+
+Add a separate authored hostage rescue for a comic-shop owner. Once rescued, they open a persistent comic shop in the outskirts with comic covers displayed on bookshelf props. Selecting a book opens a custom in-game comic viewer.
+
+The mod already includes a comic-related readable shard in the base game, **Dr. Havoc & Radon**, but that is not a full comic PDF or an existing in-game comic-reader library. Use it only as an in-world reference; do not extract or redistribute the game's shard or assets.
+
+The starter shelf should include the user's original **Last Instinct — Issue 1** once its final PDF is available, plus online comics with verified redistribution rights. **Sharing Creative Works: An Illustrated Primer** is a public-domain comic with a downloadable PDF. Keep author credit and source/license metadata with it. Follow the detailed [comic store and reader plan](comic-store-plan.md).
+
+Prepare approved PDFs during mod packaging by converting pages into optimized textures and generating a manifest and cover thumbnails. Use the custom UI to page through them; test the widget and resource loading in-game. Do not assume the game can render PDFs directly. Only bundle files with clear rights to redistribute and convert.
 
 ## Random hostile building activities
 
@@ -103,7 +113,7 @@ Treat the city as a major map project: build a small vertical slice first, verif
 2. Establish the city geography, districts, road network, boundaries, and performance budget.
 3. Add the central inactive police station and its captain-rescue unlock state.
 4. Add the first hub, local NPCs, and a small set of interiors; test navigation and crowd behavior.
-5. Add the main quest arc, side activities, local fixers, clinics, vendors, and their persistent unlocks.
+5. Add the main quest arc, side activities, local fixers, clinics, vendors, the comic shop/reader, and their persistent unlocks.
 6. Build the authored hostile-building and eligible hostage-character pools, including the captain rescue and ocular doctor rescue, and test selection and save behavior.
 7. Add gang introduction missions, leaders, and faction-pool integration with building-first discovery gating.
 8. Add the captain's scrapyard lead, dog encounter, three-turret power objective, and Scrapper vendor unlock.
@@ -127,6 +137,7 @@ Treat the city as a major map project: build a small vertical slice first, verif
 - Confirm gangs enter regional pools only after their required hostile building introduction; verify the friendly kid gang stays out of combat pools.
 - Test the captain-to-scrapyard quest chain, aggressive dog encounter, gang leader power-unit drop, three-turret activation, and safe target filtering for V and friendly NPCs.
 - Test the eye doctor rescue and clinic unlock, eye color/tint/iris/robotic appearance choices, ocular cyberware slots and capacity, night vision, hostile tracking, and sniper enhancement on supported weapons.
+- Test the comic-shop hostage unlock, bookshelf covers, PDF-to-page asset build, license manifest, reader navigation, page readability, and package-size limits.
 - Verify Scrapper vendors unlock only after the old man's rescue; test randomized stock persistence, purchase behavior, and vehicle-part compatibility, installation, removal, and stats.
 - Test fixers, clinics, shops, quest progression, services, unique rewards, and save/reload persistence.
 - Confirm existing Night City routes and quests remain unaffected.
