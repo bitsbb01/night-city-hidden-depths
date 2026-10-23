@@ -49,7 +49,7 @@ Make the city discoverable only after Nette's lead and the quest-cleared truck b
 
 ### Versions 2.1 and later — Outskirts expansion waves
 
-Expand district by district, adding authored hostile building pools, underground and rail spaces, local fixers, ripperdocs, clinics, shops, quests, gangs, leaders, hostages, loot, garages, and ambient NPCs.
+Expand district by district, adding authored hostile building pools, underground and rail spaces, local fixers, ripperdocs, clinics, shops, quests, gangs, leaders, hostages, loot, garages, and ambient NPCs. After the police-captain rescue, add the junkyard mission: rescue an injured old man from aggressive dogs, retrieve the gang leader's turret power unit, activate three pole-mounted turrets, and unlock the Scrapper vendor network. Add randomized mod-weapon and vehicle-part stock, including tested speed, armor, and hood-weapon upgrades for Hidden Depths cars and bikes.
 
 Add multiple eligible rescued adults with optional partner storylines; those characters can separately join V as allies. Complete companion interactions, phone/contact summoning, follow and combat behavior, commands, gear controls, and save persistence. Equip every mod-added combat-capable NPC—including gangs, allies, and partners—with compatible loadouts for the new weapons V has discovered. Keep peaceful service NPCs in role-appropriate noncombat scenes.
 
