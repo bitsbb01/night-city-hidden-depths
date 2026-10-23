@@ -122,6 +122,12 @@ Rescuing the old man unlocks the first Scrapper vendor and causes him to notify 
 
 Create upgrade parts for Hidden Depths cars and bikes, including speed, armor, and hood-mounted weapon options. Define vehicle/slot compatibility and implement balanced installation/removal, controls for weaponized upgrades, and save-persistent configurations. Validate each supported vehicle in-game before listing it as compatible. Follow the detailed [outskirts city plan](outskirts-city-plan.md).
 
+## Post-launch feature queue: ocular doctor and eye cyberware
+
+Add an authored hostage rescue for a new ocular doctor in the outskirts hostile-building pool. After rescue, she opens a clinic and offers original eye colors, tints, iris types and robotic-eye appearances, plus functional ocular implants. Keep cosmetic appearance choices separate from installed implants.
+
+Prototype and balance night vision, hostile tracking/highlighting, sniper-scope enhancement, optic zoom, and glare reduction. Define item IDs, ocular slots/capacity, costs, activation and save state. Integrate supported ocular items into the shared registry used by Nette's clinic, using optional adapters and leaving other mods' item records untouched. Test features in game and mark unsupported effects clearly when reliable hooks are unavailable. Follow the [cross-mod cyberware plan](cross-mod-cyberware.md) and [outskirts city plan](outskirts-city-plan.md).
+
 ## Current repository state
 
 The repository currently contains the design documents, a location data definition, a Python validator with tests, and ZIP packaging automation. It does not yet contain game assets, scripts, or an installable build. The release workflow intentionally refuses to create a release ZIP until actual installable files exist under `game-root/`.
