@@ -47,6 +47,14 @@ A simple custom UI game is the preferred first prototype. Do not launch arbitrar
 
 Do not bundle copyrighted commercial arcade games or base-game minigame assets. For a game with split code and asset licenses, review both. If a dependency's requirements cannot be met, use original assets or omit that dependency.
 
+## Hidden outdoor cabinet quest and portable cartridges
+
+Place one distinctive arcade cabinet outside, separate from the regular indoor venues. When V tries to play it, the cabinet displays a strange service message with a clue to a concealed quest inside one of the new hostile building locations. The message should be a deliberate quest lead, not a broken interaction. Persist the clue and quest stage so it remains available after saving and reloading.
+
+The hidden building quest should involve finding the arcade technician's lost prototype/cartridge cache and completing a short objective chain. On completion, the arcade owner/manager adds portable game cartridges to their shop inventory. V can buy cartridges for the original games and use an in-game handheld/portable arcade interface to play those unlocked games away from cabinets. Keep the quest optional and discovery-based; do not unlock cartridge stock before the quest reward flag is set.
+
+Implement portable play as a self-contained in-game UI or supported item interaction, not an external executable. It should pause or suspend cleanly, allow immediate exit, and block use during combat, driving, dialogue, or other unsafe states. Persist cartridge ownership and best scores. Test interactions on foot, UI input, save/reload, and conflicts with other item/UI mods. If a title cannot be made portable due to technical constraints, clearly label it as cabinet-only rather than selling a nonfunctional cartridge.
+
 ## Save state and rewards
 
 Persist each cabinet's unlocked/available game list and the player's best scores where the framework supports it. Rewards should be modest and optional: small eddies, a cosmetic token, or a one-time item. Save one-time reward flags to prevent score reload exploits and duplicate claims. High scores and venue access must survive saving and reloading.
