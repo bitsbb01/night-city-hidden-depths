@@ -93,6 +93,14 @@ Rescuing the old man unlocks him as a Scrapper vendor and prompts him to contact
 
 Add vehicle parts for Hidden Depths cars and bikes, including speed, armor, and hood-weapon upgrades. Define compatible vehicles and slots, balanced effects, installation and removal, controls for any added weapons, and persistent vehicle configurations. Compatibility with base-game or third-party vehicles requires separate testing. See the [outskirts city expansion plan](docs/outskirts-city-plan.md).
 
+## Future version: rescued ocular doctor and eye cyberware
+
+Add a new eye doctor/ocular specialist as an authored hostage rescue in the outskirts building pool. After rescue, she opens an eye clinic in the new area and offers cosmetic eye customization plus new ocular cyberware. Track her rescue and clinic unlock persistently and prevent duplicate appearances.
+
+Cosmetic options include new eye colors and tints, iris shapes and patterns, and robotic or partly mechanical eyes. Keep appearance options separate from functional implants. Her ocular implants can include night vision, a hostile tracker, and a sniper enhancer that improves supported sniper-scope magnification or target clarity, with further options such as optic zoom and glare reduction. Add item IDs, ocular slots/capacity, costs, activation rules, and balance.
+
+Integrate supported ocular implants into the shared cyberware catalog with Nette, without modifying other mods' records. Validate the night-vision effect, hostile highlighting, and sniper-scope support in game before release; document any unsupported behavior and provide a fallback. See the [cross-mod cyberware integration plan](docs/cross-mod-cyberware.md) and [outskirts city plan](docs/outskirts-city-plan.md).
+
 ## Enemies and mutations
 
 - Include ordinary gang encounters plus selected bio-experiment encounters.
