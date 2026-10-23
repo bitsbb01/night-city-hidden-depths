@@ -6,7 +6,12 @@ A Cyberpunk 2077 mod project for exploring newly accessible locations, undergrou
 
 ## Project status
 
-This repository is the project home and release-packaging scaffold. The playable mod files are still being developed; this repository does not yet contain an installable game mod.
+The agreed feature scope and first Watson location are documented. Playable world, quest, and mod files are still being developed; this repository does not yet contain an installable game mod.
+
+## Design documents
+
+- [Full feature brief](DESIGN.md)
+- [First Watson location: The Quiet Track](docs/first-location.md)
 
 ## Downloading releases
 
