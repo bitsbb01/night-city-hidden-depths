@@ -70,6 +70,14 @@ Build the clinic catalog around a shared cyberware registry. Read installed item
 
 Change Nette's hair and nail styles independently every six in-game days. Store each current style and next change day, and verify the cycle remains stable through sleep, time skips, and save reloads. Keep Nette's rescue, clinic, catalog, and appearance schedule in separate persistent state. This feature is post-launch and not required for the first playable release.
 
+## Post-launch feature queue: Virtual Atelier store
+
+Create a uniquely named Hidden Depths store once gear discovery and reward flags are in place. When V finds a Hidden Depths clothing, armor, or weapon reward, unlock that entry for later purchase in the store; keep undiscovered rewards hidden.
+
+Create makeup and tattoo assets as separate cosmetic content, then add them to Atelier where the supported store integration accepts them. If an appearance option is not a normal purchaseable item, link a compatible appearance menu from the shop instead. Virtual Atelier registers stores for existing item records; it does not create the underlying items. Follow the [Virtual Atelier integration plan](virtual-atelier-integration.md).
+
+Declare Virtual Atelier and required frameworks as dependencies for the optional store package. Test with the framework installed and missing, check store and item ID uniqueness, verify discovery unlocks persist across reloads, and test item previews and cosmetic application. This feature is post-launch and not required for the first playable release.
+
 ## Current repository state
 
 The repository currently contains the design documents, a location data definition, a Python validator with tests, and ZIP packaging automation. It does not yet contain game assets, scripts, or an installable build. The release workflow intentionally refuses to create a release ZIP until actual installable files exist under `game-root/`.
