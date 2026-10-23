@@ -39,6 +39,12 @@ A later version may add a separate hostage rescue for a shop owner. After V resc
 
 This is planned post-launch content; it does not change the first location's current 5% hostage pool.
 
+## Future version: Josiah, rescued child and fixer
+
+A later story update may add a hostage rescue for a child named Josiah. After V rescues him, Josiah becomes a fixer contact based in the apartment where V first starts free-roam. He uses a fixer app to offer repeatable jobs around Night City.
+
+Choose jobs from authored mission templates and locations, with randomized targets, objectives, and rewards. Save the active job state so it does not reroll on reload, and track Josiah's rescue and fixer unlock separately from the other hostage rewards. This is a future-version feature and does not alter the initial hostage event odds.
+
 ## Enemies and mutations
 
 - Include ordinary gang encounters plus selected bio-experiment encounters.
@@ -84,7 +90,8 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 7. Add a garage vehicle claim, then custom vehicle appearances and the painter/color app.
 8. Add more building variants, the rare hostage roll, and mutated enemy encounters.
 9. Add the rescued shop owner in a later version after the core location and shop area are ready.
-10. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
+10. Add Josiah's rescue, persistent apartment fixer contact, and replayable city jobs in a later story update.
+11. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
 
 ## Compatibility and testing notes
 
