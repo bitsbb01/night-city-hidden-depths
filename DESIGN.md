@@ -85,6 +85,14 @@ Add original recruitable allies with a companion feature set inspired by [Night 
 
 At least two eligible rescued adult NPCs may have optional, choice-driven partner storylines and can also be recruited as allies. Keep romance separate from ally recruitment and respect player choices; rescuing a character does not automatically create a relationship. All mod-added NPC archetypes, including allies and partners, need compatible equipment/loadout support for the new weapons. Combat-capable NPCs can use discovered Hidden Depths weapons with compatible ammunition; use role-appropriate gear and preserve peaceful service scenes. Preserve existing story-critical characters and state. See the [outskirts city plan](docs/outskirts-city-plan.md).
 
+## Future version: scrapyard rescue and Scrapper vendors
+
+After V rescues the outskirts police captain and unlocks the station, the captain gives V a lead about an injured old man stranded in a junkyard at the edge of the new city. V must fight multiple aggressive dogs to reach the man's hut. The old man explains that three elevated automatic turrets are offline and require a power unit carried by the gang leader below one of the turret poles. Defeat the leader, recover the unit, and restore power to all three turrets so they eliminate remaining hostile dogs and other hostile intruders. Turret targeting must never harm V, rescued characters, civilians, or recruited allies.
+
+Rescuing the old man unlocks him as a Scrapper vendor and prompts him to contact his Scrapper friends. Additional non-hostile Scrapper NPCs then appear at authored outskirts locations and sell random selections of Hidden Depths weapons and vehicle parts. Persist vendor inventories and refresh state to prevent reload rerolls and duplicate purchases.
+
+Add vehicle parts for Hidden Depths cars and bikes, including speed, armor, and hood-weapon upgrades. Define compatible vehicles and slots, balanced effects, installation and removal, controls for any added weapons, and persistent vehicle configurations. Compatibility with base-game or third-party vehicles requires separate testing. See the [outskirts city expansion plan](docs/outskirts-city-plan.md).
+
 ## Enemies and mutations
 
 - Include ordinary gang encounters plus selected bio-experiment encounters.
@@ -137,8 +145,9 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 13. Add the Virtual Atelier store, discovered-item unlocks, and supported makeup/tattoo integrations in a later release.
 14. Add original appearances and optional eye-pack compatibility for Hidden Depths NPCs.
 15. Build the outskirts city as a DLC-sized expansion: unlock discovery through Nette's lead and quest-cleared truck blockage, then add the city map, inactive central police station and captain-rescue unlock, local cast and quest arc, fixers, ripperdocs, shops, authored hostile building and hostage pools, faction introductions, and gated regional encounter pools.
-16. Add rescued local service NPCs, recruitable companions, optional partner storylines, and tested compatibility hooks; keep new assets/code original and companion features independently implemented.
-17. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
+16. After the captain rescue, add the scrapyard mission, injured old man, three powered turrets, Scrapper vendor network, randomized mod-gear stock, and vehicle-part upgrades for Hidden Depths vehicles.
+17. Add rescued local service NPCs, recruitable companions, optional partner storylines, and tested compatibility hooks; keep new assets/code original and companion features independently implemented.
+18. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
 
 ## Compatibility and testing notes
 
