@@ -75,7 +75,7 @@ Create original exotic eye variants for Hidden Depths characters. Optionally sup
 
 ## Future version: outskirts city via road tunnel
 
-Add a new, explorable city on the outskirts of Night City, reached by driving through one of the road tunnels. Develop it as a DLC-sized post-launch expansion with a local NPC cast, main and side quest content, new fixers, ripperdocs and clinics, shops, interiors, gangs, and regional encounter pools. Bring existing Hidden Depths gangs into the outskirts only after their hostile building introduction; keep Josiah's kid gang friendly and out of combat pools. Build a small tested map slice first, then expand the districts and services. See the [outskirts city plan](docs/outskirts-city-plan.md).
+Add a new, explorable outskirts city as a DLC-sized post-launch expansion. After rescuing Nette, V learns of it from her and clears a huge truck blocking the connecting road tunnel; only then can V drive through and discover the region. The city includes a central police station that is initially unusable and unlocks only after rescuing its captured captain from a hostile building. Add local NPCs, quests, fixers, ripperdocs, shops, and a pool of authored random hostile building activities. Gate gang appearances behind their hostile building introductions, and keep Josiah's kid gang friendly and out of combat pools. Build and test the route and map in slices before expanding the region. See the [outskirts city plan](docs/outskirts-city-plan.md).
 
 ## Enemies and mutations
 
@@ -127,7 +127,7 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 12. Add Nette's rescue, clinic, cross-mod cyberware catalog, and six-day hair/nail appearance cycle in a later update.
 13. Add the Virtual Atelier store, discovered-item unlocks, and supported makeup/tattoo integrations in a later release.
 14. Add original appearances and optional eye-pack compatibility for Hidden Depths NPCs.
-15. Build the outskirts city through a road tunnel as a DLC-sized expansion: prove the map slice, then add the new cast, quest arc, fixers, ripperdocs, shops, faction introductions, and gated regional encounter pools.
+15. Build the outskirts city as a DLC-sized expansion: unlock discovery through Nette's lead and quest-cleared truck blockage, then add the city map, inactive central police station and captain-rescue unlock, local cast and quest arc, fixers, ripperdocs, shops, authored hostile building pool, faction introductions, and gated regional encounter pools.
 16. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
 
 ## Compatibility and testing notes
