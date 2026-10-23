@@ -101,6 +101,16 @@ Cosmetic options include new eye colors and tints, iris shapes and patterns, and
 
 Integrate supported ocular implants into the shared cyberware catalog with Nette, without modifying other mods' records. Validate the night-vision effect, hostile highlighting, and sniper-scope support in game before release; document any unsupported behavior and provide a fallback. See the [cross-mod cyberware integration plan](docs/cross-mod-cyberware.md) and [outskirts city plan](docs/outskirts-city-plan.md).
 
+## Future version: rescued comic-shop owner and comic reader
+
+Add a comic-shop owner as a separate authored hostage rescue in the outskirts. After the rescue, they open a persistent store with comic covers on the shelves. Selecting a cover opens a custom in-game reader for compatible comics bundled with the mod.
+
+Cyberpunk 2077 has a readable comic-related shard called **Dr. Havoc & Radon**, but it is not a full issue PDF or an in-game multipage comic-store reader. Use the title only as a lore reference; do not extract or redistribute the game's shard or assets.
+
+The starter library should include the user's original **Last Instinct — Issue 1** when its final PDF is ready, plus online comics whose redistribution rights are verified. **Sharing Creative Works: An Illustrated Primer** is a downloadable comic dedicated to the public domain. Keep author, source, and rights details in the package manifest.
+
+Since direct PDF rendering in the game is not established, convert licensed PDFs to optimized page images and cover thumbnails during packaging, then display them in a custom page-turning UI. Verify feasibility, input, memory use, and performance in an in-game prototype before expanding the library. See the [comic store and reader plan](docs/comic-store-plan.md).
+
 ## Enemies and mutations
 
 - Include ordinary gang encounters plus selected bio-experiment encounters.
@@ -153,6 +163,7 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 13. Add the Virtual Atelier store, discovered-item unlocks, and supported makeup/tattoo integrations in a later release.
 14. Add original appearances and optional eye-pack compatibility for Hidden Depths NPCs.
 15. Build the outskirts city as a DLC-sized expansion: unlock discovery through Nette's lead and quest-cleared truck blockage, then add the city map, inactive central police station and captain-rescue unlock, local cast and quest arc, fixers, ripperdocs, shops, authored hostile building and hostage pools, faction introductions, and gated regional encounter pools.
+16. Add the rescued comic-shop owner, bookshelf displays, rights-checked comic library, PDF-to-page build step, and in-game reader.
 16. After the captain rescue, add the scrapyard mission, injured old man, three powered turrets, Scrapper vendor network, randomized mod-gear stock, and vehicle-part upgrades for Hidden Depths vehicles.
 17. Add rescued local service NPCs, recruitable companions, optional partner storylines, and tested compatibility hooks; keep new assets/code original and companion features independently implemented.
 18. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
