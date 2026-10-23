@@ -78,6 +78,14 @@ Create makeup and tattoo assets as separate cosmetic content, then add them to A
 
 Declare Virtual Atelier and required frameworks as dependencies for the optional store package. Test with the framework installed and missing, check store and item ID uniqueness, verify discovery unlocks persist across reloads, and test item previews and cosmetic application. This feature is post-launch and not required for the first playable release.
 
+## Post-launch feature queue: NPC appearance library
+
+Create original eyes, tattoos, makeup, scars, and other appearance options for characters added by Hidden Depths, including rescuable characters, fixers, shop owners, ripperdocs, gangs, and mutants. Keep custom presets available when optional appearance packs are absent.
+
+Optionally integrate eye colors from the installed Beautiful Exotics Eyes Pack — CCXL Version if its IDs can be safely assigned to mod-added NPCs. Keep the pack optional, do not bundle or copy its assets without permission, and provide original exotic eye variants as a fallback. Follow the [NPC appearance plan](npc-appearance-plan.md).
+
+Test NPC appearances with and without the optional pack, verify unsupported or missing appearance IDs fall back cleanly, and check the supported body types.
+
 ## Current repository state
 
 The repository currently contains the design documents, a location data definition, a Python validator with tests, and ZIP packaging automation. It does not yet contain game assets, scripts, or an installable build. The release workflow intentionally refuses to create a release ZIP until actual installable files exist under `game-root/`.
