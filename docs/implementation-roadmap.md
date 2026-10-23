@@ -62,6 +62,14 @@ A future story update may add a separate rescue for Josiah, a hostage child. Aft
 
 Build the jobs from authored mission and location templates, varying targets, objectives, and rewards. Persist each active job across saves so a reload cannot reroll it. Keep Josiah's rescue and fixer unlock in their own save state; this feature does not change the initial 5% hostage odds and is not required for the first playable release.
 
+## Post-launch feature queue: Nette ripperdoc
+
+A future update may add a separate hostage rescue for Nette. After V rescues her, she opens her own clinic and offers installation for the mod's body cybernetics and upgrades.
+
+Add a catalog of cybernetics from installed mods, offering entries that expose the data needed for purchase and installation through the supported frameworks. Test with multiple installed cyberware mods, incompatible entries, and missing definitions so the clinic reports unsupported items instead of breaking.
+
+Change Nette's hair and nail styles independently every six in-game days. Store each current style and next change day, and verify the cycle remains stable through sleep, time skips, and save reloads. Keep Nette's rescue, clinic, catalog, and appearance schedule in separate persistent state. This feature is post-launch and not required for the first playable release.
+
 ## Current repository state
 
 The repository currently contains the design documents, a location data definition, a Python validator with tests, and ZIP packaging automation. It does not yet contain game assets, scripts, or an installable build. The release workflow intentionally refuses to create a release ZIP until actual installable files exist under `game-root/`.
