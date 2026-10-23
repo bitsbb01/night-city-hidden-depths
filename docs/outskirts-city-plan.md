@@ -37,7 +37,7 @@ The intended scale is several substantial districts and a meaningful quest/activ
 
 Use the region's hostage events to introduce original local characters who can become part of the city after rescue. The possible captives can include shop owners, ripperdocs, fixers, adult sex workers/joytoys, local workers, residents, police officers, and other authored NPCs. A rescued character can return to the outskirts and open or join an appropriate service, offer jobs or information, become an ally, or contribute to a follow-up quest, depending on their role.
 
-Keep the existing rare hostage-event chance and save rules. Choose only from authored, eligible characters; prevent duplicate rescues and avoid selecting a character whose quest state is unavailable. Maintain the police captain as a separate authored rescue required to activate the station, so random selection cannot block that unlock. All sex-worker characters and any potential romantic partners are adults. Use consensual, optional relationship storylines; rescuing someone never automatically creates a romance.
+Keep the existing rare hostage-event chance and save rules. Choose only from authored, eligible characters; prevent duplicate rescues and avoid selecting a character whose quest state is unavailable. Maintain the police captain as a separate authored rescue required to activate the station, so random selection cannot block that unlock. Include at least two eligible rescued adult NPCs who can later offer optional partner storylines; each can also be recruited as an ally, and rescue alone never starts a romance. All sex-worker characters and potential partners are adults. Make partner and ally choices independent so the player can choose friendship, partnership, both, or neither.
 
 ## Random hostile building activities
 
@@ -69,7 +69,7 @@ Add original local allies who can be recruited after their rescue or quest intro
 
 Implement Hidden Depths characters and assets independently. Do not copy the referenced mod's code or assets. If optional integration is feasible, use only documented compatibility hooks and respect the other author's permissions; otherwise provide a standalone Hidden Depths companion system. Keep companion count, combat balance, navigation, and save reliability within the tested game limits.
 
-Some new adult characters may have optional partner/romance storylines in the outskirts. Treat relationship progression as separate from companion recruitment: consent and story choices determine romance, and the player can use allies as friends or squad members without pursuing a relationship. Preserve existing Cyberpunk 2077 character story states.
+At least two eligible rescued adult characters may offer optional partner/romance storylines. A character with a partner storyline can also be recruited as an ally, but partnership and squad recruitment are separate player choices. Add a mod-weapon-compatible equipment/loadout system for every new NPC archetype, including rescued specialists, allies, and partners. Give NPCs role-appropriate default loadouts; when recruited or in combat, eligible allies and partners can be assigned Hidden Depths weapons V has discovered, with matching ammunition and tested animations/behavior. Keep custom weapon use discovery-gated where appropriate, preserve quest-critical states, and do not force civilian service NPCs to carry weapons in peaceful scenes.
  
 ## World-building approach
 
@@ -99,6 +99,7 @@ Treat the city as a major map project: build a small vertical slice first, verif
 - Check traffic and NPC navigation, collision, lighting, occlusion, and performance across the city sectors.
 - Test random building selection, fixed authored geometry, encounter variation, eligible hostage rescues, captain rescue persistence, and one-time rewards.
 - Verify rescued specialists return to the intended shop, clinic, fixer hub, or social location; test companion recruitment, phone/contact summon, follow/combat behavior, commands, outfits/equipment, apartment interactions, and save persistence.
+- Confirm at least two eligible rescued adult NPCs support optional partner stories and can independently be recruited as allies; test custom weapon loadouts and ammunition for every mod-added combat-capable NPC type, including partners.
 - Check relationship paths are optional, adult-only, choice-driven, and separate from ally recruitment.
 - Confirm gangs enter regional pools only after their required hostile building introduction; verify the friendly kid gang stays out of combat pools.
 - Test fixers, clinics, shops, quest progression, services, unique rewards, and save/reload persistence.
