@@ -56,6 +56,7 @@ def main() -> int:
 
     install_note = (
         "Night City: Hidden Depths\n"
+        "Created by Bitsbb01\n"
         f"Version: {tag}\n\n"
         "Installation: extract this ZIP into your Cyberpunk 2077 installation folder "
         "and merge the included folders. Install any required frameworks listed in "
