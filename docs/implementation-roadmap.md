@@ -98,9 +98,9 @@ Test NPC appearances with and without the optional pack, verify unsupported or m
 
 ## Post-launch feature queue: outskirts city
 
-Build a separate explorable outskirts city reached by driving through an existing road tunnel. Start with a small native world-edit slice and verify the tunnel connection, streaming boundary, return route, save behavior, vehicle state, traffic, navigation, and performance before expanding streets and interiors. Add the detailed [outskirts city plan](outskirts-city-plan.md).
+Build a DLC-sized outskirts expansion reached by driving through an existing road tunnel. Prove a small native world-edit slice and verify tunnel travel, streaming, save behavior, vehicle state, traffic, navigation, and performance first. Expand it into districts with a new NPC cast, main and side quests, fixers, ripperdocs and clinics, shops, interiors, underground spaces, and repeatable activities. Integrate the Hidden Depths gangs into appropriate regional pools only after their hostile building introductions; keep Josiah's kid gang friendly and outside combat pools. Add leaders and authored introductions for any new region-specific hostile factions. Follow the detailed [outskirts city plan](outskirts-city-plan.md).
 
-This is a major post-launch world project, not part of the first playable release.
+This is a major post-launch world project, not part of the first playable release. Build and test it in staged slices before treating it as a complete DLC-sized release.
 
 ## Current repository state
 
