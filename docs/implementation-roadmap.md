@@ -102,6 +102,14 @@ Build a DLC-sized outskirts expansion. After rescuing Nette, V learns of the reg
 
 This is a major post-launch world project, not part of the first playable release. Build and test it in staged slices before treating it as a complete DLC-sized release.
 
+## Post-launch feature queue: outskirts hostage cast, allies, and partners
+
+Expand the outskirts hostage pool with authored local characters who can join the region after rescue: shop owners, additional ripperdocs, fixers, adult sex workers/joytoys, residents, workers, captured police, and other NPCs. Depending on their role, rescued characters can open or join local services, provide jobs or information, or become allies. Keep the existing rare hostage-event chance and eligibility rules. Persist individual rescue outcomes and prevent duplicate or story-ineligible captures. The station captain remains a dedicated authored rescue required to unlock the police station.
+
+Build original recruitable allies with a companion feature set inspired by [Night City Allies — Immersive Companion System](https://www.nexusmods.com/cyberpunk2077/mods/27625): hangouts, squad recruitment, phone/contact-based summoning, follow and combat behavior, supported commands, outfit/equipment options, persistent unlocks, and selected apartment or safe-location interactions. Implement Hidden Depths characters and assets independently; do not copy that mod's code or assets. Optional integration must use documented, permitted compatibility hooks and be tested with the other mod both installed and absent.
+
+Some new adult characters may have optional, choice-driven partner storylines. Keep romance separate from companion recruitment, adult-only, and never automatic upon rescue. Preserve existing Cyberpunk 2077 story states. Follow the detailed [outskirts city plan](outskirts-city-plan.md).
+
 ## Current repository state
 
 The repository currently contains the design documents, a location data definition, a Python validator with tests, and ZIP packaging automation. It does not yet contain game assets, scripts, or an installable build. The release workflow intentionally refuses to create a release ZIP until actual installable files exist under `game-root/`.
