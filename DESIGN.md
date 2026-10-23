@@ -77,6 +77,14 @@ Create original exotic eye variants for Hidden Depths characters. Optionally sup
 
 Add a new, explorable outskirts city as a DLC-sized post-launch expansion. After rescuing Nette, V learns of it from her and clears a huge truck blocking the connecting road tunnel; only then can V drive through and discover the region. The city includes a central police station that is initially unusable and unlocks only after rescuing its captured captain from a hostile building. Add local NPCs, quests, fixers, ripperdocs, shops, and a pool of authored random hostile building activities. Gate gang appearances behind their hostile building introductions, and keep Josiah's kid gang friendly and out of combat pools. Build and test the route and map in slices before expanding the region. See the [outskirts city plan](docs/outskirts-city-plan.md).
 
+## Future version: outskirts hostage cast, allies, and partners
+
+Expand the outskirts hostage pool with authored local characters who can join the region after rescue: shop owners, additional ripperdocs, fixers, adult sex workers/joytoys, residents, workers, captured police, and other NPCs. Based on their role, rescued characters can open or join local services, provide jobs or information, or become allies. Keep the existing rare hostage-event chance and eligibility rules. Named rescues must be tracked separately, and the police captain remains a dedicated authored rescue required to unlock the central station.
+
+Add original recruitable allies with a companion feature set inspired by [Night City Allies — Immersive Companion System](https://www.nexusmods.com/cyberpunk2077/mods/27625): hangouts, recruitable squad members, phone/contact-based summoning, follow and combat behavior, supported commands, outfit and equipment options, persistent unlocks, and selected apartment or safe-location interactions. This is a feature reference, not permission to reuse its code or assets. Build Hidden Depths companions independently; optional compatibility should use permitted, documented hooks only.
+
+New adult characters may also have optional, choice-driven partner storylines. Keep romance separate from ally recruitment and respect player choices; rescuing a character does not automatically create a relationship. Preserve existing story-critical characters and state. See the [outskirts city plan](docs/outskirts-city-plan.md).
+
 ## Enemies and mutations
 
 - Include ordinary gang encounters plus selected bio-experiment encounters.
@@ -127,8 +135,9 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 12. Add Nette's rescue, clinic, cross-mod cyberware catalog, and six-day hair/nail appearance cycle in a later update.
 13. Add the Virtual Atelier store, discovered-item unlocks, and supported makeup/tattoo integrations in a later release.
 14. Add original appearances and optional eye-pack compatibility for Hidden Depths NPCs.
-15. Build the outskirts city as a DLC-sized expansion: unlock discovery through Nette's lead and quest-cleared truck blockage, then add the city map, inactive central police station and captain-rescue unlock, local cast and quest arc, fixers, ripperdocs, shops, authored hostile building pool, faction introductions, and gated regional encounter pools.
-16. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
+15. Build the outskirts city as a DLC-sized expansion: unlock discovery through Nette's lead and quest-cleared truck blockage, then add the city map, inactive central police station and captain-rescue unlock, local cast and quest arc, fixers, ripperdocs, shops, authored hostile building and hostage pools, faction introductions, and gated regional encounter pools.
+16. Add rescued local service NPCs, recruitable companions, optional partner storylines, and tested compatibility hooks; keep new assets/code original and companion features independently implemented.
+17. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
 
 ## Compatibility and testing notes
 
