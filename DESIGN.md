@@ -59,6 +59,12 @@ Add a **Night City: Hidden Depths** Virtual Atelier store in a later version. Cl
 
 Create original makeup and tattoo options as cosmetic assets and unlocks. Integrate them with Virtual Atelier where the supported versions allow cosmetic entries; if an appearance option cannot be sold as a normal item, link the store to a compatible appearance menu. Virtual Atelier provides shop listings for items but does not create or apply the underlying gear or cosmetic assets. See the [Virtual Atelier integration plan](docs/virtual-atelier-integration.md).
 
+## Future version: new appearances for mod-added NPCs
+
+Give NPCs created by this mod—rescuable characters, fixers, shop owners, ripperdocs, gang members, and mutants—original eye colors, tattoos, makeup, scars, and other distinctive appearance options.
+
+Create original exotic eye variants for Hidden Depths characters. Optionally support the installed [Beautiful Exotics Eyes Pack — CCXL Version](https://www.nexusmods.com/cyberpunk2077/mods/25718) when its appearance IDs can be applied safely to our NPCs. Keep this pack optional, do not bundle or copy its assets without the author's permission, and provide original eye looks when it is absent. See the [NPC appearance plan](docs/npc-appearance-plan.md).
+
 ## Enemies and mutations
 
 - Include ordinary gang encounters plus selected bio-experiment encounters.
@@ -107,7 +113,8 @@ Badge Roulette is a unique weapon awarded once per save. Its shots temporarily s
 10. Add Josiah's rescue, persistent apartment fixer contact, and replayable city jobs in a later story update.
 11. Add Nette's rescue, clinic, cross-mod cyberware catalog, and six-day hair/nail appearance cycle in a later update.
 12. Add the Virtual Atelier store, discovered-item unlocks, and supported makeup/tattoo integrations in a later release.
-13. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
+13. Add original appearances and optional eye-pack compatibility for Hidden Depths NPCs.
+14. Test installation, saves, quest progression, and release ZIP before publishing a playable release.
 
 ## Compatibility and testing notes
 
