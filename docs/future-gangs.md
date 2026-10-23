@@ -2,17 +2,23 @@
 
 **Created by Bitsbb01 — Night City: Hidden Depths**
 
-This is a future-version design brief for three new groups. It is not implemented in the current mod.
+This is a future-version design brief for new groups. It is not implemented in the current mod.
 
-## Stealth gang
+## Hostile faction roster
 
-Add an adult hostile gang variant to appropriate random enemy pools. They specialize in silent weapons, stealth approaches, ambushes, flanking, and disappearing between cover. Use authored encounter options and weighted selection so they appear as a distinct, occasional threat rather than replacing every gang encounter.
+Add at least six distinct hostile gangs:
 
-Do not assign child NPCs to hostile gang loadouts.
+1. A stealth gang that favors silent weapons, ambushes, flanking, and breaking contact.
+2. An all-female gang with its own identity, appearance, dialogue, tactics, and equipment.
+3. At least four additional hostile gang types, each with a distinct identity, combat style, equipment, appearance, and leader.
 
-## All-female gang
+Give every hostile faction a leader and an authored leader encounter in one of the new buildings. Keep the gang names and detailed themes open for later design.
 
-Add a separate gang whose members are all women. Give them their own identity, look, dialogue, combat roles, and equipment. Add them to appropriate hostile enemy pools and authored building encounters as a randomized gang option.
+## Building discovery unlocks city encounters
+
+Introduce each hostile faction in a building first. The first time V encounters one of its groups as hostile, set a persistent faction-discovered flag. After that, add that faction's members and occasional leader encounters to appropriate real-world city enemy pools.
+
+Before the building encounter, that faction must not appear as a new hostile group in the open world. Save/reload must preserve the discovery state and the active encounter's selected faction. Weight the open-world spawns so the new groups add variety without replacing the existing gangs.
 
 ## Josiah's kid gang
 
@@ -27,13 +33,12 @@ After Josiah reveals the group:
 
 ### Safety and placement rules
 
-- Never add the kid gang to the hostile enemy pool.
-- Never spawn them in the new building areas' gang combat encounters.
-- Keep child NPCs noncombatant and excluded from hostile faction changes, Badge Roulette effects, and enemy targeting.
+- Never add the kid gang to the hostile enemy pool or to the new building areas' combat encounters.
+- Keep child NPCs noncombatant and exclude them from hostile faction changes, Badge Roulette effects, and enemy targeting.
 - Keep their affiliation hidden until Josiah's reveal; save the reveal and hideout-unlocked state so reloads do not reset it.
 
 ## Random encounter and save behavior
 
-The stealth gang and all-female gang are eligible for selected hostile encounter variants. Store the chosen group for an active run so saves do not reroll it. The kid gang uses a separate friendly-world and hideout system, gated by Josiah's rescue/reveal state.
+The six or more hostile factions share the building-first discovery rule, then become eligible for selected open-world encounters. Keep the kid gang on its own friendly-world and hideout system, gated by Josiah's rescue/reveal state.
 
-Test the three groups separately, verify faction selection across reloads, and confirm the child group never appears in combat pools or hostile NPC targeting.
+Test faction discovery in each building, faction unlocks after save/reload, hostile leader encounters, and the open-world spawn weights. Separately verify that the kid gang never enters combat pools or hostile NPC targeting.
