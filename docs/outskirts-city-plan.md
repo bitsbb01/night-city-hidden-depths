@@ -35,9 +35,17 @@ The intended scale is several substantial districts and a meaningful quest/activ
 
 ## Hostage and rescue character pool
 
-Use the region's hostage events to introduce original local characters who can become part of the city after rescue. The possible captives can include shop owners, ripperdocs, fixers, adult sex workers/joytoys, local workers, residents, police officers, and other authored NPCs. A rescued character can return to the outskirts and open or join an appropriate service, offer jobs or information, become an ally, or contribute to a follow-up quest, depending on their role.
+Use the region's hostage events to introduce original local characters who can become part of the city after rescue. The possible captives can include shop owners, ripperdocs, fixers, an ocular specialist/eye doctor, adult sex workers/joytoys, local workers, residents, police officers, and other authored NPCs. A rescued character can return to the outskirts and open or join an appropriate service, offer jobs or information, become an ally, or contribute to a follow-up quest, depending on their role.
 
 Keep the existing rare hostage-event chance and save rules. Choose only from authored, eligible characters; prevent duplicate rescues and avoid selecting a character whose quest state is unavailable. Maintain the police captain as a separate authored rescue required to activate the station, so random selection cannot block that unlock. Include at least two eligible rescued adult NPCs who can later offer optional partner storylines; each can also be recruited as an ally, and rescue alone never starts a romance. All sex-worker characters and potential partners are adults. Make partner and ally choices independent so the player can choose friendship, partnership, both, or neither.
+
+## Hostage specialist: ocular doctor
+
+Add an authored hostage rescue for a new eye doctor (ocular specialist) in one of the outskirts' hostile building activities. Keep her eligible for the rescue pool with a persistent, non-duplicating rescue state. Once rescued, she establishes an eye clinic in the new area and offers both cosmetic eye customization and functional ocular cyberware.
+
+Her cosmetic catalog can unlock original eye colors and tints, iris shapes and patterns, and robotic or partly mechanical eye styles. Her functional ocular catalog can include night vision, a hostile-target tracker, and a sniper enhancer that improves supported scope magnification or target clarity while V uses a sniper rifle. Additional ocular upgrades can include optic zoom and glare reduction. Treat cosmetic eyes and functional implants as separate catalog entries so a player can change appearance without replacing their installed cyberware.
+
+Connect ocular implants to the shared cyberware catalog used by Nette, with stable item IDs, slot and capacity rules, prices, and optional compatibility adapters. Define toggle behavior, balance, and prerequisites. Prototype the night-vision filter, hostile marking, and sniper-scope changes in game before committing them as guaranteed features; provide a clear fallback or mark an effect unsupported if the required game hooks are unreliable. The clinic and catalog remain available after rescue, and rescue/unlock state persists across saves.
 
 ## Random hostile building activities
 
@@ -96,13 +104,14 @@ Treat the city as a major map project: build a small vertical slice first, verif
 3. Add the central inactive police station and its captain-rescue unlock state.
 4. Add the first hub, local NPCs, and a small set of interiors; test navigation and crowd behavior.
 5. Add the main quest arc, side activities, local fixers, clinics, vendors, and their persistent unlocks.
-6. Build the authored hostile-building and eligible hostage-character pools, including the captain rescue, and test selection and save behavior.
+6. Build the authored hostile-building and eligible hostage-character pools, including the captain rescue and ocular doctor rescue, and test selection and save behavior.
 7. Add gang introduction missions, leaders, and faction-pool integration with building-first discovery gating.
 8. Add the captain's scrapyard lead, dog encounter, three-turret power objective, and Scrapper vendor unlock.
 9. Add Scrapper stock rotation and installable vehicle-part upgrades for Hidden Depths cars and bikes; test stats, targeting, purchases, and save persistence.
-10. Add recruitable allies, companion interactions, and optional adult partner storylines; test persistence and combat balance.
-11. Expand the map with more districts, underground spaces, garages, rewards, and repeatable contracts.
-12. Run compatibility, save migration, streaming, performance, and full quest regression passes before packaging.
+10. Add the eye clinic, cosmetic eye catalog, and ocular implant prototypes; integrate supported items with the shared cyberware registry.
+11. Add recruitable allies, companion interactions, and optional adult partner storylines; test persistence and combat balance.
+12. Expand the map with more districts, underground spaces, garages, rewards, and repeatable contracts.
+13. Run compatibility, save migration, streaming, performance, and full quest regression passes before packaging.
 
 ## Test plan
 
@@ -117,6 +126,7 @@ Treat the city as a major map project: build a small vertical slice first, verif
 - Check relationship paths are optional, adult-only, choice-driven, and separate from ally recruitment.
 - Confirm gangs enter regional pools only after their required hostile building introduction; verify the friendly kid gang stays out of combat pools.
 - Test the captain-to-scrapyard quest chain, aggressive dog encounter, gang leader power-unit drop, three-turret activation, and safe target filtering for V and friendly NPCs.
+- Test the eye doctor rescue and clinic unlock, eye color/tint/iris/robotic appearance choices, ocular cyberware slots and capacity, night vision, hostile tracking, and sniper enhancement on supported weapons.
 - Verify Scrapper vendors unlock only after the old man's rescue; test randomized stock persistence, purchase behavior, and vehicle-part compatibility, installation, removal, and stats.
 - Test fixers, clinics, shops, quest progression, services, unique rewards, and save/reload persistence.
 - Confirm existing Night City routes and quests remain unaffected.
