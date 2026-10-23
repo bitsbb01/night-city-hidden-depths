@@ -13,6 +13,7 @@ The feature scope, first Watson location, quest outline, and machine-readable co
 - [Full feature brief](DESIGN.md)
 - [First Watson location: The Quiet Track](docs/first-location.md)
 - [First side activity outline](docs/quest-01-the-quiet-track.md)
+- [Implementation roadmap](docs/implementation-roadmap.md)
 - [Location content definition](content/locations/quiet-track.json)
 
 The JSON definition records layout, pacing, encounter variation, hostage odds, one-time rewards, loot, and save-state requirements. It is validated as design data; it does not run in the game.
@@ -21,7 +22,7 @@ The JSON definition records layout, pacing, encounter variation, hostage odds, o
 
 When an installable build is ready, each version will be published under **Releases** as a ZIP named `NightCityHiddenDepths-<version>.zip`.
 
-To create a release, push a version tag such as `v0.1.0`. GitHub Actions validates the location definition and game-root payload, packages them, and attaches the ZIP to that GitHub Release. The ZIP will contain the mod's game folders at its root; extract those folders into the Cyberpunk 2077 installation directory and merge them.
+To create a release, push a version tag such as `v0.1.0`. GitHub Actions runs the content tests, validates the location definition and game-root payload, packages them, and attaches the ZIP to that GitHub Release. The ZIP will contain the mod's game folders at its root; extract those folders into the Cyberpunk 2077 installation directory and merge them.
 
 The release workflow deliberately stops if `game-root/` contains no actual mod payload, so an empty or documentation-only ZIP cannot be published by accident.
 
@@ -30,8 +31,9 @@ The release workflow deliberately stops if `game-root/` contains no actual mod p
 - `content/locations/` — authored location definitions used for content checks.
 - `game-root/` — files arranged as they should appear under the Cyberpunk 2077 install directory.
 - `scripts/validate_content.py` — checks key design constraints in the location definitions.
+- `tests/` — tests for the location content rules.
 - `scripts/package_release.py` — validates and packages the installable payload.
-- `.github/workflows/package-release.yml` — validates and builds a ZIP on version tags, then publishes it as a GitHub Release asset.
+- `.github/workflows/package-release.yml` — tests, validates, and builds a ZIP on version tags, then publishes it as a GitHub Release asset.
 
 ## Compatibility
 
