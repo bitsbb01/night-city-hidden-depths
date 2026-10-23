@@ -18,6 +18,7 @@ The feature scope, first Watson location, quest outline, and machine-readable co
 - [Virtual Atelier integration plan](docs/virtual-atelier-integration.md)
 - [Mod-added NPC appearance plan](docs/npc-appearance-plan.md)
 - [Future gangs and arcade hideout plan](docs/future-gangs.md)
+- [Outskirts city expansion plan](docs/outskirts-city-plan.md)
 - [Location content definition](content/locations/quiet-track.json)
 
 The JSON definition records layout, pacing, encounter variation, hostage odds, one-time rewards, loot, and save-state requirements. It is validated as design data; it does not run in the game.
