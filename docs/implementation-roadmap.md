@@ -66,7 +66,7 @@ Build the jobs from authored mission and location templates, varying targets, ob
 
 A future update may add a separate hostage rescue for Nette. After V rescues her, she opens her own clinic and offers installation for the mod's body cybernetics and upgrades.
 
-Add a catalog of cybernetics from installed mods, offering entries that expose the data needed for purchase and installation through the supported frameworks. Test with multiple installed cyberware mods, incompatible entries, and missing definitions so the clinic reports unsupported items instead of breaking.
+Build the clinic catalog around a shared cyberware registry. Read installed item definitions through the selected supported frameworks, normalize stable item IDs, slots, stats, prices, installation requirements, and source mod, and expose compatible items to Nette's vendor. Use optional adapters for mods that need special handling, never edit another mod's records, and report unsupported definitions clearly. Follow the detailed [cross-mod cyberware integration plan](cross-mod-cyberware.md).
 
 Change Nette's hair and nail styles independently every six in-game days. Store each current style and next change day, and verify the cycle remains stable through sleep, time skips, and save reloads. Keep Nette's rescue, clinic, catalog, and appearance schedule in separate persistent state. This feature is post-launch and not required for the first playable release.
 
