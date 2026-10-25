@@ -1,0 +1,28 @@
+name: Check CET Lua syntax
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "game-root/**/*.lua"
+      - ".github/workflows/lua-check.yml"
+  pull_request:
+    paths:
+      - "game-root/**/*.lua"
+      - ".github/workflows/lua-check.yml"
+  workflow_dispatch:
+
+jobs:
+  syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Lua 5.1
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes lua5.1
+      - name: Parse CET Lua files
+        run: |
+          find game-root -type f -name '*.lua' -print0 | while IFS= read -r -d '' file; do
+            luac5.1 -p "$file"
+          done
