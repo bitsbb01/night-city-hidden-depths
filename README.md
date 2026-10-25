@@ -6,7 +6,14 @@ A Cyberpunk 2077 mod project for exploring newly accessible locations, undergrou
 
 ## Project status
 
-The feature scope, first Watson location, quest outline, and machine-readable content definition are in the repository. Playable world, quest, and mod files are still being developed; this repository does not yet contain an installable game mod.
+The feature scope and first authored location are documented, and a CET door-encounter test scaffold is now included under `game-root/`. The scaffold can be installed for testing, but it only rolls/logs encounter outcomes and opens a targeted real door; it does not yet spawn dungeon geometry, NPCs, hostages, or loot.
+
+
+## CET door encounter test scaffold
+
+The test mod is under `game-root/bin/x64/plugins/cyber_engine_tweaks/mods/night_city_hidden_depths/`. It provides hotkeys to roll the requested 25% dungeon / 65% ambient / 10% stash split, test hostage persistence, and open a targeted real door for a one-time roll. It logs selections; it does not yet spawn rooms, NPCs, or loot. See [the test guide](docs/door-encounter-prototype.md). This per-door prototype is separate from the first authored location's run-level 5% hostage design.
+
+The repository is released under the [MIT License](LICENSE) for original project code and documentation. Cyberpunk 2077 assets and third-party content are not included and remain subject to their own rights and licenses.
 
 ## Design and content
 
